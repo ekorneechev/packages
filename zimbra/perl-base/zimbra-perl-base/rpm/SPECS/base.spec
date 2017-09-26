@@ -5,8 +5,8 @@ Release:            alt1.zimbra884
 License:            GPL-2
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
-BuildRequires:      perl, perl-core
-Requires:           perl, perl-core, zimbra-base
+BuildRequires:      perl
+Requires:           perl, zimbra-base
 AutoReqProv:        no
 
 %define debug_package %{nil}
