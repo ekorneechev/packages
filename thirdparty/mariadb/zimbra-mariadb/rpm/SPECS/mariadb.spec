@@ -5,10 +5,10 @@ Release:            alt1.zimbra844
 License:            GPLv2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      libaio-devel
-BuildRequires:      ncurses-devel
+BuildRequires:      libncurses-devel
 BuildRequires:      zimbra-openssl-devel
 Requires:           libaio, zimbra-openssl-libs, zimbra-base
-Requires:           zimbra-mariadb-libs = %{version}-%{release}, ncurses-libs, perl
+Requires:           zimbra-mariadb-libs = %{version}-%{release}, libncurses, perl
 AutoReqProv:        no
 URL:                https://www.mariadb.org/
 
