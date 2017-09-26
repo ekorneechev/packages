@@ -7,12 +7,15 @@ Source:             %{name}-%{version}.tar.bz2
 Requires:           zimbra-apr-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                https://apr.apache.org/
+Group:              System/Libraries
 
 %description
 The Zimbra Apache Portable Runtime build
 
+
 %prep
 %setup -n apr-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -27,6 +30,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        Apache Portable Runtime Libaries
 Requires:       zimbra-apache-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-apr-libs package contains the apr libraries
@@ -35,6 +39,7 @@ The zimbra-apr-libs package contains the apr libraries
 Summary:        Apache Portable Runtime Development
 Requires: zimbra-apr-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-apr-devel package contains the linking libraries and include files
