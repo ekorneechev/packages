@@ -5,7 +5,7 @@ Release:            alt1.zimbra884
 License:            GPL-2
 Requires:           sqlite, zimbra-mta-base, zimbra-altermime, zimbra-amavisd
 Requires:           zimbra-clamav, zimbra-clamav-db, zimbra-cluebringer, zimbra-mariadb >= 10.1.25-alt1.zimbra884
-Requires:           zimbra-opendkim, zimbra-perl-mail-spamassassin >= 3.4.1-1zimbra8.7b2ZAPPEND, zimbra-postfix
+Requires:           zimbra-opendkim, zimbra-perl-mail-spamassassin >= 3.4.1-alt1.zimbra844, zimbra-postfix
 Requires:           zimbra-spamassassin-rules
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
