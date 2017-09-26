@@ -4,16 +4,17 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
-BuildRequires:      zip, libX11-devel, libXau-devel, libXext-devel, libXfixes-devel
-BuildRequires:      libXtst-devel, libXi-devel, libxcb-devel, xorg-x11-proto-devel
+BuildRequires:      zip, unzip, libX11-devel, libXau-devel, libXext-devel, libXfixes-devel
+BuildRequires:      libXtst-devel, libXi-devel, libxcb-devel, xorg-xproto-devel
 BuildRequires:      libICE-devel, libSM-devel, libXt, libXt-devel, libXrender-devel
-BuildRequires:      keyutils-libs-devel, krb5-devel, libcom_err-devel, libselinux-devel
-BuildRequires:      libsepol-devel, openssl-devel, cups-devel, freetype-devel
-BuildRequires:      alsa-lib-devel, java-1.7.0-openjdk-devel
-Requires:           libX11, libXext, libXi, libXrender, libXtst, alsa-lib, freetype
+BuildRequires:      libkeyutils-devel, libkrb5-devel, libcom_err-devel, libselinux-devel
+BuildRequires:      libsepol-devel, openssl-devel, cups-devel, libfreetype-devel
+BuildRequires:      libalsa-devel, java-1.7.0-openjdk-devel
+Requires:           libX11, libXext, libXi, libXrender, libXtst, libalsa, libfreetype
 Requires:           zimbra-base
 AutoReqProv:        no
 URL:                http://openjdk.java.net/
+Group:   	    Development/Java
 
 %description
 The Zimbra OpenJDK build
@@ -28,6 +29,7 @@ The Zimbra OpenJDK build
 
 %prep
 %setup -n openjdk-%{version}
+%set_verify_elf_method skip
 
 %build
 CFLAGS="-O2 -g"; export CFLAGS; \
