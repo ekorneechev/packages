@@ -7,6 +7,7 @@ Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-store-base
 AutoReqProv:        no
 URL:                https://www.eclipse.org/jetty/
+Group:              Development/Java
 
 %define debug_package %{nil}
 
