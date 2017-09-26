@@ -1,9 +1,9 @@
 Summary:            Zimbra Perl Base
 Name:               zimbra-perl-base
 Version:            1.0.0
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      perl, perl-core
 Requires:           perl, perl-core, zimbra-base

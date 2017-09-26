@@ -1,10 +1,10 @@
 Summary:            Zimbra components for dnscache package
 Name:               zimbra-dnscache-components
 Version:            1.0.0
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
 Requires:           zimbra-dnscache-base, zimbra-unbound
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 

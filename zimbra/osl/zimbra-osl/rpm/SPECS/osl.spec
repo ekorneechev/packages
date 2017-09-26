@@ -1,10 +1,10 @@
 Summary:            Opensource Licenses
 Name:               zimbra-osl
 Version:            1.0.9
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
 Requires:           zimbra-base
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 

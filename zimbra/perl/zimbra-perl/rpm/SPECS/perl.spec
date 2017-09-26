@@ -1,7 +1,7 @@
 Summary:        Zimbra Perl
 Name:           zimbra-perl
 Version:        1.0.3
-Release:        1zimbra8.7b1ZAPPEND
+Release:        alt1.zimbra884
 License:        GPL-2
 Packager:       Zimbra Packaging Services <packaging-devel@zimbra.com>
 Group:          Development/Languages

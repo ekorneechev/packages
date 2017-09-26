@@ -1,15 +1,15 @@
 Summary:            Zimbra components for core package
 Name:               zimbra-core-components
 Version:            1.0.3
-Release:            1zimbra8.7b1ZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
 Requires:           zimbra-base, zimbra-os-requirements, zimbra-perl, zimbra-pflogsumm
-Requires:           zimbra-openssl >= 1.0.2l-1zimbra8.7b1ZAPPEND,zimbra-curl, zimbra-cyrus-sasl, zimbra-rsync
-Requires:           zimbra-mariadb-libs >= 10.1.25-1zimbra8.7b1ZAPPEND, zimbra-openldap-client, zimbra-osl
+Requires:           zimbra-openssl >= 1.0.2l-alt1.zimbra884,zimbra-curl, zimbra-cyrus-sasl, zimbra-rsync
+Requires:           zimbra-mariadb-libs >= 10.1.25-alt1.zimbra884, zimbra-openldap-client, zimbra-osl
 Requires:           zimbra-prepflog, zimbra-tcmalloc-libs, zimbra-perl-innotop
 Requires:           zimbra-openjdk >= 1.8.0u144b01-1zimbra8.7b4ZAPPEND, zimbra-openjdk-cacerts, zimbra-amavis-logwatch
 Requires:           zimbra-postfix-logwatch, zimbra-rrdtool
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 

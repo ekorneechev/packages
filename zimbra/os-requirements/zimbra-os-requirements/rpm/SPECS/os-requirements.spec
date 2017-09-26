@@ -1,9 +1,9 @@
 Summary:            Zimbra OS Requirements
 Name:               zimbra-os-requirements
 Version:            1.0.0
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 Requires:           coreutils, expat, file, gmp, libaio, libidn, libstdc++, pcre
 Requires:           perl, perl-core, sudo, sysstat, unzip, zimbra-base

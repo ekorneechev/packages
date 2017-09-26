@@ -1,9 +1,9 @@
 Summary:            Zimbra MTA Base
 Name:               zimbra-mta-base
 Version:            1.0.1
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 Requires:           zimbra-base
 AutoReqProv:        no

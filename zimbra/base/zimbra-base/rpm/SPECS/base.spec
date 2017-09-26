@@ -1,9 +1,9 @@
 Summary:            Zimbra Base
 Name:               zimbra-base
 Version:            1.0.1
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra884
 License:            GPL-2
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           shadow-utils
 Group:              Development/Languages
 AutoReqProv:        no
