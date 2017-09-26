@@ -15,9 +15,9 @@ This file contains the licenses for the open source 3rd party
 software used by Zimbra
 
 %changelog
-* Thu Jun 30 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.9-ITERATIONZAPPEND
+* Thu Jun 30 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.9
 - Update Freetype to 2.6.3
-* Tue Jun 07 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.8-ITERATIONZAPPEND
+* Tue Jun 07 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.8
 - Update 0MQ to 4.1.4
 - Update ClamAV to 0.99.2
 - Update libxml2 to 2.9.4
@@ -28,12 +28,12 @@ software used by Zimbra
 - Update memcached to 1.4.25
 - Update Unbound to 1.5.9
 - Update libpng to 1.6.23
-* Wed May 04 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.7-ITERATIONZAPPEND
+* Wed May 04 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.7
 - Update OpenJDK to 1.0.8u92b14
 - Update OpenSSL to 1.0.2h
-* Wed Mar 16 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.6-ITERATIONZAPPEND
+* Wed Mar 16 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.6
 - Remove converse.js
-* Tue Feb 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.5-ITERATIONZAPPEND
+* Tue Feb 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.5
 - Update OpenJDK to 1.0.8u74b02
 - Update Selenium to 2.51.0
 - Update OpenSSL to 1.0.2g
@@ -41,7 +41,7 @@ software used by Zimbra
 - Update Unbound to 1.5.8
 - Update Postfix to 3.1.0
 - Update ClamAV to 0.99.1
-* Mon Feb 08 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.4-ITERATIONZAPPEND
+* Mon Feb 08 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.4
 - Update rsync to 3.1.2
 - Update openssl to 1.0.1r
 - Update MariaDB to 10.1.11
@@ -49,15 +49,15 @@ software used by Zimbra
 - Add apache-commons-compress 1.10
 - Update PHP to 5.6.18
 - Update OpenLDAP to 2.4.44
-* Mon Jan 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3-ITERATIONZAPPEND
+* Mon Jan 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3
 - Update MariaDB to 10.1.10
 - Update Selenium to 2.49.0
 - Update jquery to 1.11.0
 - Add converse.js 0.9.4
 - Add perl-file-libmagic 1.15
-* Thu Jan 07 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2-ITERATIONZAPPEND
+* Thu Jan 07 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
 - Add oauth, guice
-* Thu Dec 17 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1-ITERATIONZAPPEND
+* Thu Dec 17 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
 - Update for ZCS 8.7.0 release.
 
 %install
