@@ -5,16 +5,18 @@ Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-openssl-devel
-BuildRequires:      ncurses-devel
-Requires:           zimbra-openssl-libs, zimbra-heimdal-libs = %{version}-%{release}, ncurses-libs
+BuildRequires:      libncurses-devel
+Requires:           zimbra-openssl-libs, zimbra-heimdal-libs = %{version}-%{release}, libncurses
 AutoReqProv:        no
 URL:                http://www.h5l.org/
+Group:              System/Libraries
 
 %description
 The Zimbra Heimdal Kerberos build for additional encryption services
 
 %prep
 %setup -n heimdal-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-LOZCL -Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -69,8 +71,9 @@ make -C lib/gssapi install DESTDIR=${RPM_BUILD_ROOT}
 
 %package libs
 Summary:        Heimdal Libaries
-Requires: zimbra-openssl-libs, ncurses-libs, zimbra-base
+Requires: zimbra-openssl-libs, libncurses, zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-heimdal-libs package contains the heimdal libraries
@@ -79,6 +82,7 @@ The zimbra-heimdal-libs package contains the heimdal libraries
 Summary:        Heimdal Development
 Requires: zimbra-heimdal-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-heimdal-devel package contains the linking libraries and include files
