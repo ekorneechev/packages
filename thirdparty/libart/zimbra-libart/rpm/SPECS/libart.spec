@@ -5,12 +5,14 @@ Release:            alt1.zimbra844
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 URL:                http://ftp.gnome.org/pub/gnome/sources/libart_lgpl/2.3/
+Group:              System/Libraries
 
 %description
 The Zimbra libart build
 
 %prep
 %setup -n libart_lgpl-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -25,6 +27,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        libart Libaries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-libart-libs package contains the libart libraries
@@ -33,6 +36,7 @@ The zimbra-libart-libs package contains the libart libraries
 Summary:        libart Development
 Requires: zimbra-libart-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/GNOME and GTK+
 
 %description devel
 The zimbra-libart-devel package contains the linking libraries and include files
