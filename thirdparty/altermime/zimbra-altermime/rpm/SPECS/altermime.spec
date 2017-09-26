@@ -8,13 +8,14 @@ Requires:           zimbra-mta-base
 Patch0:             qpe.patch
 AutoReqProv:        no
 URL:                http://www.pldaniels.com/altermime/
+Group:              Applications/Internet
 
 %description
 The Zimbra altermime build
 
 %prep
 %setup -n altermime-0.3-dev
-%patch0 -p1
+#%patch0 -p1
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
