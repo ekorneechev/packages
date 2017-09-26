@@ -5,12 +5,14 @@ Release:            alt1.zimbra844
 License:            ISC
 Source:             %{name}-%{version}.tar.gz
 URL:                https://download.libsodium.org/doc/
+Group: 		    System/Libraries
 
 %description
 The Zimbra libsodium build
 
 %prep
 %setup -n libsodium-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -26,6 +28,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        libsodium Libaries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-libsodium-libs package contains the libsodium libraries
@@ -34,6 +37,7 @@ The zimbra-libsodium-libs package contains the libsodium libraries
 Summary:        libsodium Development
 Requires: zimbra-libsodium-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description devel
 The zimbra-libsodium-devel package contains the linking libraries and include files
