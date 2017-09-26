@@ -4,8 +4,8 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      zlib-devel
-BuildRequires:      libncurses-devel
+BuildRequires:      bzlib-devel libcheck-devel libncurses-devel zlib-devel libcurl-devel libssl-devel libxml2-devel libpcre-devel
+BuildRequires:      git-core graphviz groff-extra gv zip doxygen flex
 BuildRequires:      zimbra-openssl-devel
 BuildRequires:      zimbra-libxml2-devel
 BuildRequires:      zimbra-libmilter-devel
