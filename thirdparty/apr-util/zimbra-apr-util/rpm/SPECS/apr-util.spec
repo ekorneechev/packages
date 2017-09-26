@@ -4,17 +4,19 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.bz2
-BuildRequires:      zimbra-apr-devel, expat-devel
+BuildRequires:      zimbra-apr-devel, libexpat-devel
 BuildRequires:      zimbra-openssl-devel
 Requires:           zimbra-apr-util-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                https://apr.apache.org/
+Group: 	            System/Libraries
 
 %description
 The Zimbra Apache Portable Runtime Utilities build
 
 %prep
 %setup -n apr-util-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -33,6 +35,7 @@ Summary:        Apache Portable Runtime Utilities Libaries
 Requires:	zimbra-apr-libs, expat, zimbra-apache-base
 Requires:       zimbra-openssl-libs
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-apr-util-libs package contains the apr utilities libraries
@@ -41,6 +44,7 @@ The zimbra-apr-util-libs package contains the apr utilities libraries
 Summary:        Apache Portable Runtime Utilities Development
 Requires: zimbra-apr-util-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-apr-util-devel package contains the linking libraries and include files
