@@ -9,6 +9,7 @@ BuildRequires:      zimbra-aspell
 Requires:           zimbra-aspell
 AutoReqProv:        no
 URL:                http://aspell.net/
+Group: 		    Text tools
 
 %description
 The Zimbra Aspell Dutch dictionary
