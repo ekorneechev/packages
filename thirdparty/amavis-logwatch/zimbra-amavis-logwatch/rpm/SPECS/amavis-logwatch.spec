@@ -7,6 +7,7 @@ Source:             %{name}-%{version}.tgz
 Requires:           zimbra-base
 AutoReqProv:        no
 URL:                http://www.logwatch.org/
+Group:              Monitoring
 
 %description
 The Zimbra amavis-logwatch build
