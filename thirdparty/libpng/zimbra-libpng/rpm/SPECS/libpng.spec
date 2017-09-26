@@ -6,12 +6,14 @@ BuildRequires:      zlib-devel
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 URL:                http://www.libpng.org/pub/png/libpng.html
+Group: 		    System/Libraries
 
 %description
 The Zimbra libpng build
 
 %prep
 %setup -n libpng-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -26,6 +28,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        libpng Libaries
 Requires:           zlib, zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-libpng-libs package contains the libpng libraries
@@ -34,6 +37,7 @@ The zimbra-libpng-libs package contains the libpng libraries
 Summary:        libpng Development
 Requires: zimbra-libpng-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: 		    Development/C
 
 %description devel
 The zimbra-libpng-devel package contains the linking libraries and include files
