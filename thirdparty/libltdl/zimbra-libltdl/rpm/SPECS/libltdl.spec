@@ -5,12 +5,14 @@ Release:            alt1.zimbra844
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
 URL:                https://www.gnu.org/software/libtool
+Group: 		    System/Libraries
 
 %description
 The Zimbra libltdl build
 
 %prep
 %setup -n libtool-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -28,6 +30,7 @@ rm -rf ${RPM_BUILD_ROOT}OZCB
 Summary:        libltdl Libaries
 Requires:       zimbra-ldap-base
 AutoReqProv:    no
+Group:          System/Libraries
 
 %description libs
 The zimbra-libltdl-libs package contains the libltdl libraries
@@ -36,6 +39,7 @@ The zimbra-libltdl-libs package contains the libltdl libraries
 Summary:        libltdl Development
 Requires: zimbra-libltdl-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: 		    Development/Tools
 
 %description devel
 The zimbra-libltdl-devel package contains the linking libraries and include files
