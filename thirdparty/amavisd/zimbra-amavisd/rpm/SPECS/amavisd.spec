@@ -12,6 +12,7 @@ Patch4:             zmq-sock.patch
 Requires:           perl, zimbra-mta-base
 AutoReqProv:        no
 URL:                http://www.ijs.si/software/amavisd/
+Group:              Networking/Mail
 
 %description
 The Zimbra amavisd build
