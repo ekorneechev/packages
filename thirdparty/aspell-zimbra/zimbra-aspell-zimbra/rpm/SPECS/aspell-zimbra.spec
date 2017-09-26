@@ -8,6 +8,7 @@ Requires:           zimbra-aspell-en
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
+Group:              Text tools
 
 %define debug_package %{nil}
 
