@@ -12,12 +12,14 @@ Requires:           zlib, pcre
 Requires:           zimbra-apr-libs, zimbra-apr-util-libs, zimbra-apache-base
 AutoReqProv:        no
 URL:                http://httpd.apache.org/
+Group: 		    System/Servers
 
 %description
 The Zimbra Apache HTTPD build
 
 %prep
 %setup -n httpd-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -45,6 +47,7 @@ Requires: zimbra-httpd = %{version}-%{release}
 Requires: zimbra-apr-devel
 Requires: zimbra-apr-util-devel
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-httpd-devel package contains the linking libraries and include files
