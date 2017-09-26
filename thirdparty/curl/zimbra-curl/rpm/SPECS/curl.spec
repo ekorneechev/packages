@@ -4,7 +4,7 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      zlib-devel
+BuildRequires:      glibc-devel-static groff-base libidn-devel libssh2-devel libssl-devel zlib-devel python-modules libnghttp2-devel python-modules-logging python-modules-xml
 BuildRequires:      zimbra-openssl-devel
 BuildRequires:      zimbra-heimdal-devel
 Requires:           zlib, zimbra-curl-libs = %{version}-%{release}, zimbra-openssl-libs, zimbra-heimdal-libs
@@ -21,7 +21,7 @@ The Zimbra Curl build
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
-CFLAGS="-O2 -g"; export CFLAGS; \
+CFLAGS="-O2 -g -lpthread"; export CFLAGS; \
 ./configure --prefix=OZC \
   --disable-ldap --disable-ldaps \
   --with-gssapi=OZC \
