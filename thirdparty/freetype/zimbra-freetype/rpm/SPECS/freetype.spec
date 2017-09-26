@@ -26,7 +26,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 
 %package libs
 Summary:        freetype Libaries
-Requires:           zlib, bzip2-libs, zimbra-base
+Requires:           zlib, bzlib, zimbra-base
 AutoReqProv:        no
 Group:              System/Libraries
 
