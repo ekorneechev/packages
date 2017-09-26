@@ -7,12 +7,14 @@ Source:             %{name}-%{version}-stable.tar.gz
 Requires:           zimbra-libevent-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://libevent.org/
+Group:  	    System/Libraries
 
 %description
 The Zimbra libevent build
 
 %prep
 %setup -n libevent-%{version}-stable
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -27,6 +29,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        libevent Libaries
 Requires:       zimbra-memcached-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-libevent-libs package contains the libevent libraries
@@ -35,6 +38,7 @@ The zimbra-libevent-libs package contains the libevent libraries
 Summary:        libevent Development
 Requires: zimbra-libevent-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-libevent-devel package contains the linking libraries and include files
