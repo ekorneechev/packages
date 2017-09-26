@@ -6,12 +6,14 @@ License:            GPL-2.0
 BuildRequires:      zlib-devel, bzip2-devel
 Source:             %{name}-%{version}.tar.gz
 URL:                http://www.freetype.org
+Group:              System/Libraries
 
 %description
 The Zimbra freetype build
 
 %prep
 %setup -n freetype-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -26,6 +28,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        freetype Libaries
 Requires:           zlib, bzip2-libs, zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-freetype-libs package contains the freetype libraries
@@ -34,6 +37,7 @@ The zimbra-freetype-libs package contains the freetype libraries
 Summary:        freetype Development
 Requires: zimbra-freetype-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-freetype-devel package contains the linking libraries and include files
