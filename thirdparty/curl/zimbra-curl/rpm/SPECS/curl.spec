@@ -10,12 +10,14 @@ BuildRequires:      zimbra-heimdal-devel
 Requires:           zlib, zimbra-curl-libs = %{version}-%{release}, zimbra-openssl-libs, zimbra-heimdal-libs
 AutoReqProv:        no
 URL:                http://curl.haxx.se/
+Group: 		    Networking/File transfer
 
 %description
 The Zimbra Curl build
 
 %prep
 %setup -n curl-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -42,6 +44,7 @@ cp -f lib/ca-bundle.crt ${RPM_BUILD_ROOT}OZCS/curl/ca-bundle.crt
 Summary:        Curl Libaries
 Requires: zlib, zimbra-openssl-libs, zimbra-heimdal-libs, zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-curl-libs package contains the curl libraries
@@ -50,6 +53,7 @@ The zimbra-curl-libs package contains the curl libraries
 Summary:        Curl Development
 Requires: zimbra-curl-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-curl-devel package contains the linking libraries and include files
