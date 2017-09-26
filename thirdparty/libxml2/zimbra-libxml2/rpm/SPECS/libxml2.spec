@@ -8,12 +8,14 @@ BuildRequires:      zlib-devel
 Requires:           zlib, zimbra-libxml2-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://www.xmlsoft.org
+Group: 		    System/Libraries
 
 %description
 The Zimbra LibXML2 build
 
 %prep
 %setup -n libxml2-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -29,6 +31,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        LibXML2 Libaries
 Requires: zlib, zimbra-base
 AutoReqProv:        no
+Group: 		    System/Libraries
 
 %description libs
 The zimbra-libxml2-libs package contains the libxml2 libraries
@@ -37,6 +40,7 @@ The zimbra-libxml2-libs package contains the libxml2 libraries
 Summary:        LibXML2 Development
 Requires: zimbra-libxml2-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: 		    Development/C
 
 %description devel
 The zimbra-libxml2-devel package contains the linking libraries and include files
