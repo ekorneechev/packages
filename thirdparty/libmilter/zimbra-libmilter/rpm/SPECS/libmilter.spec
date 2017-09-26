@@ -6,6 +6,7 @@ License:            SENDMAIL
 Patch0:             ipv6.patch
 Source:             %{name}-%{version}.tar.gz
 URL:                https://www.sendmail.com/
+Group:              System/Servers
 
 %description
 The Zimbra libmilter build
@@ -34,6 +35,7 @@ cp -p * ${RPM_BUILD_ROOT}OZCI/libmilter
 Summary:        libmilter Development
 Requires:       zimbra-base
 AutoReqProv:        no
+Group:              Development/Other
 
 %description devel
 The zimbra-libmilter-devel package contains the linking libraries and include files
