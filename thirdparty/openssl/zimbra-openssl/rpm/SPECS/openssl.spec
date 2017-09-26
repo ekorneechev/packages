@@ -5,9 +5,10 @@ Release:            alt1.zimbra844
 License:            OpenSSL
 Source:             %{name}-%{version}.tar.gz
 Patch:              ipv6.patch
-Requires:           zimbra-openssl-libs = %{version}-%{release}, perl, perl-core
+Requires:           zimbra-openssl-libs = %{version}-%{release}, perl
 AutoReqProv:        no
 URL:                https://www.openssl.org/source
+Group: 		    System/Base
 
 %description
 The Zimbra OpenSSL build allows for secure communication between various processes.
@@ -20,6 +21,7 @@ The Zimbra OpenSSL build allows for secure communication between various process
 
 %prep
 %setup -n openssl-%{version}
+%set_verify_elf_method skip
 %patch -p1
 
 %build
@@ -37,6 +39,7 @@ chmod u+w ${RPM_BUILD_ROOT}OZCL/lib* ${RPM_BUILD_ROOT}OZCL/engines/*.so
 Summary:	SSL Libaries
 Requires: zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-openssl-libs package contains the openssl libraries
@@ -45,6 +48,7 @@ The zimbra-openssl-libs package contains the openssl libraries
 Summary:	SSL Development
 Requires: zimbra-openssl-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-openssl-devel package contains the linking libraries and include files
