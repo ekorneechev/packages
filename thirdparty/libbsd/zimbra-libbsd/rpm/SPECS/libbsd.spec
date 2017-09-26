@@ -5,12 +5,14 @@ Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.xz
 URL:                http://libbsd.freedesktop.org/
+Group: 		    System/Libraries
 
 %description
 The Zimbra libbsd build
 
 %prep
 %setup -n libbsd-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -26,6 +28,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        libbsd Libaries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-libbsd-libs package contains the libbsd libraries
@@ -34,6 +37,7 @@ The zimbra-libbsd-libs package contains the libbsd libraries
 Summary:        libbsd Development
 Requires: zimbra-libbsd-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/Other
 
 %description devel
 The zimbra-libbsd-devel package contains the linking libraries and include files
