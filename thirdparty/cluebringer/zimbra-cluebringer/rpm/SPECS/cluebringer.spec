@@ -11,6 +11,7 @@ Requires:           zimbra-perl-mail-spf, zimbra-perl-net-cidr, zimbra-perl-net-
 Requires:           zimbra-perl-net-server, zimbra-perl-timedate
 AutoReqProv:        no
 URL:                http://wiki.policyd.org/
+Group:              System/Daemons
 
 %description
 PolicyD v2 (codenamed "cluebringer") is a multi-platform policy server for popular
