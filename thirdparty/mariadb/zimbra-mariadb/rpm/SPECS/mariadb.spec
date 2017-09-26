@@ -11,16 +11,19 @@ Requires:           libaio, zimbra-openssl-libs, zimbra-base
 Requires:           zimbra-mariadb-libs = %{version}-%{release}, libncurses, perl
 AutoReqProv:        no
 URL:                https://www.mariadb.org/
+Group: 		    Databases
 
 %description
 The Zimbra MariaDB build for SQL database storage
 
 %prep
 %setup -n mariadb-%{version}
+%set_verify_elf_method skip
+sed -i "s|pcre.h|pcre/pcre.h|g" sql/item_cmpfunc.h
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
-CFLAGS="-O3 -fno-omit-frame-pointer -pipe -Wall -Wno-uninitialized -DNDEBUG"; export CFLAGS; \
+CFLAGS="-O3 -fno-omit-frame-pointer -pipe -Wall -Wno-uninitialized -DNDEBUG -lpcre"; export CFLAGS; \
 /usr/bin/cmake . \
   -DBUILD_CONFIG=mysql_release \
   -DCOMPILATION_COMMENT="Zimbra MariaDB binary distribution" \
@@ -76,6 +79,7 @@ ln -s libmysqlclient.so.18 libmysqlclient_r.so.18
 Summary:        MariaDB Libaries
 Requires: libaio, zimbra-openssl-libs, zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-mariadb-libs package contains the mariadb libraries
@@ -84,6 +88,7 @@ The zimbra-mariadb-libs package contains the mariadb libraries
 Summary:        MariaDB Development
 Requires: zimbra-mariadb-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/Other
 
 %description devel
 The zimbra-mariadb-devel package contains the linking libraries and include files
