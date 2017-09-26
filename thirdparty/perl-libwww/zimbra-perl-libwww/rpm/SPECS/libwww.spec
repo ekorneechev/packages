@@ -1,10 +1,10 @@
 Summary:            libwww - The World-Wide Web library for Perl
 Name:               zimbra-perl-libwww
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-encode-locale, zimbra-perl-file-listing
 BuildRequires:      zimbra-perl-http-cookies, zimbra-perl-http-daemon, zimbra-perl-http-date

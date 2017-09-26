@@ -1,11 +1,11 @@
 Summary:            Zimbra custom dictionary
 Name:               zimbra-aspell-zimbra
 Version:            1.0.0
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 BuildRequires:      zimbra-aspell-en
 Requires:           zimbra-aspell-en
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 

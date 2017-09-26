@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Arabic dictionary
 Name:               zimbra-aspell-ar
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

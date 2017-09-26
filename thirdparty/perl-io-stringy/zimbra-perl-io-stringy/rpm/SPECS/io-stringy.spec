@@ -1,10 +1,10 @@
 Summary:            IO-stringy - I/O on in-core objects like strings and arrays
 Name:               zimbra-perl-io-stringy
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base
 Requires:           zimbra-perl-base

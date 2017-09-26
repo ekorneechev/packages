@@ -1,7 +1,7 @@
 Summary:            Zimbra's rsync build
 Name:               zimbra-rsync
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-3
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      popt-devel

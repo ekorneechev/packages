@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Brazilian Portuguese dictionary
 Name:               zimbra-aspell-pt-br
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

@@ -1,7 +1,7 @@
 Summary:            Zimbra's Apache HTTPD build
 Name:               zimbra-httpd
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-apr-devel

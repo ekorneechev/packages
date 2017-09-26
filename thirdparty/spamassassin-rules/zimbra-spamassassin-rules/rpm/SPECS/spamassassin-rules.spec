@@ -1,10 +1,10 @@
 Summary:            Default ruleset for SpamAssassin
 Name:               zimbra-spamassasin-rules
 Version:            1.0.0
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            Apache-2.0
 Requires:           zimbra-mta-base, zimbra-perl-mail-spamassassin
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 

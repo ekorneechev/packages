@@ -1,7 +1,7 @@
 Summary:            Zimbra's Crypt::OpenSSL::RSA build
 Name:               zimbra-perl-crypt-openssl-rsa
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base, zimbra-openssl-devel

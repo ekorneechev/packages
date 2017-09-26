@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell English dictionary
 Name:               zimbra-aspell-en
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

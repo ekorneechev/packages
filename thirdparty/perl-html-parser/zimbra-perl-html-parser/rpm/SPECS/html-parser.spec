@@ -1,7 +1,7 @@
 Summary:            HTML::Parser - HTML extraction tools
 Name:               zimbra-perl-html-parser
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base

@@ -1,10 +1,10 @@
 Summary:            XML::SAX::Expat - SAX2 Driver for Expat (XML::Parser)
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-xml-sax, zimbra-perl-xml-parser
 Requires:           zimbra-perl-base, zimbra-perl-xml-sax, zimbra-perl-xml-parser

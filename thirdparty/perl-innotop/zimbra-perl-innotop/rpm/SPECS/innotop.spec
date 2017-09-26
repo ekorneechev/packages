@@ -1,11 +1,11 @@
 Summary:            innotop - mariadb monitor
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 Patch0:             inno.patch
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-dbd-mysql, zimbra-perl-term-readkey
 Requires:           zimbra-perl-base, zimbra-perl-dbd-mysql, zimbra-perl-term-readkey

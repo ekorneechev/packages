@@ -1,10 +1,10 @@
 Summary:            BerkeleyDB - Perl extension for Berkeley DB version 2, 3, 4 or 5
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-bdb-devel
 Requires:           zimbra-perl-base, zimbra-bdb-libs

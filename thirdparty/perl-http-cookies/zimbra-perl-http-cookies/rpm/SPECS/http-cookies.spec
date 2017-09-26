@@ -1,10 +1,10 @@
 Summary:            HTTP::Cookies - HTTP cookie jars
 Name:               zimbra-perl-http-cookies
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-http-date, zimbra-perl-http-message
 Requires:           zimbra-perl-base, zimbra-perl-http-date, zimbra-perl-http-message

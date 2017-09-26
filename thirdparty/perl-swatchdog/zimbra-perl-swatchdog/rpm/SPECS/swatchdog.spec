@@ -1,10 +1,10 @@
 Summary:            swatchdog - Simple Log Watcher
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-date-calc, zimbra-perl-file-tail
 BuildRequires:      zimbra-perl-date-manip, zimbra-perl-timedate

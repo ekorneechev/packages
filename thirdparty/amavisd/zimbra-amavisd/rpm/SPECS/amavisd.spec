@@ -1,7 +1,7 @@
 Summary:            Zimbra's amavisd build
 Name:               zimbra-amavisd
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.bz2
 Patch0:             amavisd.patch

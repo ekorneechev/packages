@@ -1,7 +1,7 @@
 Summary:            Zimbra's libltdl build
 Name:               zimbra-libltdl
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
 URL:                https://www.gnu.org/software/libtool

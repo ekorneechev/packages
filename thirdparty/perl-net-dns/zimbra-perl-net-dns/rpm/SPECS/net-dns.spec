@@ -1,10 +1,10 @@
 Summary:            Net::DNS - Perl Interface to the Domain Name System
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-digest-hmac, zimbra-perl-digest-sha1
 BuildRequires:      zimbra-perl-io-socket-inet6

@@ -1,10 +1,10 @@
 Summary:            File::Listing - parse directory listing
 Name:               zimbra-perl-file-listing
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-http-date
 Requires:           zimbra-perl-base, zimbra-perl-http-date

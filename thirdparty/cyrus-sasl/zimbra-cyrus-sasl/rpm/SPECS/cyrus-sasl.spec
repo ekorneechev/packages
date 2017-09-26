@@ -1,7 +1,7 @@
 Summary:            Zimbra's Cyrus-SASL build
 Name:               zimbra-cyrus-sasl
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 Patch0:             sasl-auth-zimbra-2.1.26.patch

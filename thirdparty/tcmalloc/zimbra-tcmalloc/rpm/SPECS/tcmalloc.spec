@@ -1,7 +1,7 @@
 Summary:            Zimbra's tcmalloc build
 Name:               zimbra-tcmalloc
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 URL:                https://github.com/gperftools/gperftools

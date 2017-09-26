@@ -1,7 +1,7 @@
 Summary:            Zimbra's libpng build
 Name:               zimbra-libpng
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 BuildRequires:      zlib-devel
 License:            MIT
 Source:             %{name}-%{version}.tar.gz

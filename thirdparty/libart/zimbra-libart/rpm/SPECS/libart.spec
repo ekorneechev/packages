@@ -1,7 +1,7 @@
 Summary:            Zimbra's libart build
 Name:               zimbra-libart
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 URL:                http://ftp.gnome.org/pub/gnome/sources/libart_lgpl/2.3/

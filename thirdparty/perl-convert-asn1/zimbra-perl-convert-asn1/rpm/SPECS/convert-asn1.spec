@@ -1,7 +1,7 @@
 Summary:            Zimbra's Convert::ASN1 build
 Name:               zimbra-perl-convert-asn1
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base, perl-Test-Simple, zimbra-perl-math-bigint

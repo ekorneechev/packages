@@ -1,7 +1,7 @@
 Summary:            Zimbra's nginx build
 Name:               zimbra-nginx
 Version:            VERSION
-Release:            1zimbra8.7b7ZAPPEND
+Release:            alt1.zimbra844
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      pcre-devel, zlib-devel
@@ -17,19 +17,19 @@ URL:                http://nginx.org
 The Zimbra nginx build
 
 %changelog
-* Wed May 10 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b7ZAPPEND
+* Wed May 10 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Patch for nginx Bug 107438 (and 106918, 106876)
 - Patch for nginx Bug 106948.
 - IMAP/POP3 throttling, whitelisting (ZMS-55, ZMS-59).
-* Tue Jun 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b6ZAPPEND
+* Tue Jun 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Backport upstream patch for CVE-2016-4450
-* Wed Mar 23 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b5ZAPPEND
+* Wed Mar 23 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Backport upstream patch for nginx ticket 901
-* Mon Mar 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b4ZAPPEND
+* Mon Mar 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Build with OpenSSL 1.0.2
-* Tue Feb 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b3ZAPPEND
+* Tue Feb 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Turn off compiler optimization.  Was breaking lookup extension.
-* Wed Feb 03 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b2ZAPPEND
+* Wed Feb 03 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Patch nginx for CVE-2016-0742
 - Patch nginx for CVE-2016-0746
 - Patch nginx for CVE-2016-0747

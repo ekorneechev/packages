@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell build
 Name:               zimbra-aspell
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      ncurses-devel

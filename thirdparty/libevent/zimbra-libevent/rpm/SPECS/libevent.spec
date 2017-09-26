@@ -1,7 +1,7 @@
 Summary:            Zimbra's libevent build
 Name:               zimbra-libevent
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}-stable.tar.gz
 Requires:           zimbra-libevent-libs = %{version}-%{release}

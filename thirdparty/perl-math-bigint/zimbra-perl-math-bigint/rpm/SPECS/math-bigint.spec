@@ -1,7 +1,7 @@
 Summary:            Zimbra's Math::BigInt build
 Name:               zimbra-perl-math-bigint
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base, perl-Test-Simple

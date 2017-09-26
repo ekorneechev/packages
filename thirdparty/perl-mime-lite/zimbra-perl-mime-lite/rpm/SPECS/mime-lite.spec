@@ -1,10 +1,10 @@
 Summary:            MIME-Lite - low-calorie MIME generator
 Name:               zimbra-perl-mime-lite
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-mime-types, zimbra-perl-email-date-format
 BuildRequires:      zimbra-perl-mailtools

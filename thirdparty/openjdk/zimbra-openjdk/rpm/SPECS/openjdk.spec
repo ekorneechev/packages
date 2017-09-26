@@ -1,7 +1,7 @@
 Summary:            Zimbra's OpenJDK build
 Name:               zimbra-openjdk
 Version:            VERSION
-Release:            1zimbra8.7b4ZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
 BuildRequires:      zip, libX11-devel, libXau-devel, libXext-devel, libXfixes-devel
@@ -19,11 +19,11 @@ URL:                http://openjdk.java.net/
 The Zimbra OpenJDK build
 
 %changelog
-* Fri Jul 28 2016 Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b4ZAPPEND
+* Fri Jul 28 2016 Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Update version to 1.8 update 144 build 01
-* Mon Mar 28 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b3ZAPPEND
+* Mon Mar 28 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Update version to 1.8 update 77 build 03
-* Thu Feb 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1zimbra8.7b2ZAPPEND
+* Thu Feb 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Fix cacerts handling to avoid conflicts
 
 %prep

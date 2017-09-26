@@ -1,7 +1,7 @@
 Summary:            Zimbra's maven build
 Name:               zimbra-maven
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             skip_rat_build_xml.patch

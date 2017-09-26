@@ -1,10 +1,10 @@
 Summary:            LWP::Protocol::https - Provide https support for LWP::UserAgent 
 Name:               zimbra-perl-lwp-protocol-https
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-libwww, zimbra-perl-net-http
 BuildRequires:      zimbra-perl-io-socket-ssl, zimbra-perl-mozilla-ca

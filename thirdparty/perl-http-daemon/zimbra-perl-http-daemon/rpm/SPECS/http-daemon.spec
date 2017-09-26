@@ -1,10 +1,10 @@
 Summary:            HTTP::Daemon - a simple http server class
 Name:               zimbra-perl-http-daemon
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-http-date, zimbra-perl-http-message, zimbra-perl-lwp-mediatypes
 Requires:           zimbra-perl-base, zimbra-perl-http-date, zimbra-perl-http-message, zimbra-perl-lwp-mediatypes

@@ -1,10 +1,10 @@
 Summary:            prepflog.pl - Pre-processor for pflogsumm
 Name:               zimbra-prepflog
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           zimbra-base, zimbra-perl-base, zimbra-perl-date-calc
 AutoReqProv:        no
 URL:                http://www.voipsupport.it/pmwiki/pmwiki.php?n=Linux.PrePflog

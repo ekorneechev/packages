@@ -1,10 +1,10 @@
 Summary:            ClueBringer Policy Daemon
 Name:               zimbra-cluebringer
 Version:            VERSION
-Release:            ITERATIONZAPPEND
+Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
-Packager:           Zimbra Packaging Services <packaging-devel@zimbra.com>
+Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           zimbra-mta-base, zimbra-perl-base, zimbra-perl-cache-fastmmap
 Requires:           zimbra-perl-config-inifiles, zimbra-perl-dbi, zimbra-perl-dbd-sqlite
 Requires:           zimbra-perl-mail-spf, zimbra-perl-net-cidr, zimbra-perl-net-dns
