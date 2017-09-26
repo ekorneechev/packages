@@ -7,12 +7,14 @@ Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-bdb-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/downloads/index.html
+Group:              System/Libraries
 
 %description
 The Zimbra Berkeley DB build
 
 %prep
 %setup -n db-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -30,6 +32,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        Berkeley DB Libaries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group:              System/Libraries
 
 %description libs
 The zimbra-bdb-libs package contains the bdb libraries
@@ -38,6 +41,7 @@ The zimbra-bdb-libs package contains the bdb libraries
 Summary:        Berkeley DB Development
 Requires: zimbra-bdb-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/Databases
 
 %description devel
 The zimbra-bdb-devel package contains the linking libraries and include files
