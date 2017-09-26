@@ -4,15 +4,17 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      ncurses-devel
-Requires:           ncurses-libs, zimbra-aspell-libs = %{version}-%{release}
+BuildRequires:      libncurses-devel
+Requires:           libncurses, zimbra-aspell-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://aspell.net/
+Group:              Text tools
 
 %description
 The Zimbra Aspell build
 
 %prep
+%set_verify_elf_method skip
 %setup -n aspell-%{version}
 
 %build
@@ -28,6 +30,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        Aspell Libaries
 Requires:       zimbra-spell-base
 AutoReqProv:        no
+Group:              Development/C
 
 %description libs
 The zimbra-aspell-libs package contains the aspell libraries
@@ -36,6 +39,7 @@ The zimbra-aspell-libs package contains the aspell libraries
 Summary:        Aspell Development
 Requires: zimbra-aspell-libs = %{version}-%{release}
 AutoReqProv:        no
+Group:              Development/C
 
 %description devel
 The zimbra-aspell-devel package contains the linking libraries and include files
