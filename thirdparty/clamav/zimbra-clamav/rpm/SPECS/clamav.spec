@@ -5,20 +5,22 @@ Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zlib-devel
-BuildRequires:      ncurses-devel
+BuildRequires:      libncurses-devel
 BuildRequires:      zimbra-openssl-devel
 BuildRequires:      zimbra-libxml2-devel
 BuildRequires:      zimbra-libmilter-devel
-Requires:           zlib, ncurses-libs, zimbra-clamav-libs = %{version}-%{release}, zimbra-openssl-libs
+Requires:           zlib, libncurses, zimbra-clamav-libs = %{version}-%{release}, zimbra-openssl-libs
 Requires:           zimbra-libxml2-libs
 AutoReqProv:        no
 URL:                http://www.clamav.net/
+Group: 		    File tools
 
 %description
 The Zimbra ClamAV build
 
 %prep
 %setup -n clamav-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-LOZCL -Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -44,6 +46,7 @@ rm -rf ${RPM_BUILD_ROOT}/usr/lib/systemd
 Summary:        ClamAV Libaries
 Requires: zlib, zimbra-openssl-libs, zimbra-libxml2-libs, zimbra-mta-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-clamav-libs package contains the clamav libraries
@@ -52,6 +55,7 @@ The zimbra-clamav-libs package contains the clamav libraries
 Summary:        ClamAV Development
 Requires: zimbra-clamav-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-clamav-devel package contains the linking libraries and include files
