@@ -17,6 +17,7 @@ Requires:           zimbra-libbsd-libs
 Requires:           zimbra-openldap-libs
 AutoReqProv:        no
 URL:                http://www.opendkim.org/
+Group:              System/Servers
 
 %description
 The Zimbra OpenDKIM build
@@ -27,6 +28,7 @@ The Zimbra OpenDKIM build
 
 %prep
 %setup -n opendkim-%{version}
+%set_verify_elf_method skip
 %patch0 -p1
 
 %build
@@ -59,6 +61,7 @@ Summary:        OpenDKIM Libaries
 Requires: zlib, zimbra-openssl-libs
 Requires: zimbra-libbsd-libs, zimbra-mta-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-opendkim-libs package contains the opendkim libraries
@@ -67,6 +70,7 @@ The zimbra-opendkim-libs package contains the opendkim libraries
 Summary:        OpenDKIM Development
 Requires: zimbra-opendkim-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-opendkim-devel package contains the linking libraries and include files
