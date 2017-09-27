@@ -29,6 +29,7 @@ are supported.
 
 %prep
 %setup -n MODNAME-%{version}
+%set_verify_elf_method skip
 
 %build
 perl -I OZCL/perl5 Makefile.PL INSTALL_BASE=OZC \
