@@ -4,10 +4,11 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      zimbra-perl-base, perl-Test-Simple, zimbra-perl-math-bigint
+BuildRequires:      zimbra-perl-base, perl-devel, zimbra-perl-math-bigint
 Requires:           zimbra-perl-base, zimbra-perl-math-bigint
 AutoReqProv:        no
 URL:                https://metacpan.org/release/Convert-ASN1/
+Group:              Development/Perl
 
 %define perl_archname %(eval "`perl -V:archname`"; echo $archname)
 
