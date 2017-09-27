@@ -12,6 +12,7 @@ Requires:           zimbra-openssl-libs
 Requires:           zimbra-cyrus-sasl-libs, zimbra-proxy-base
 AutoReqProv:        no
 URL:                http://nginx.org
+Group: 		    System/Servers
 
 %description
 The Zimbra nginx build
@@ -36,6 +37,7 @@ The Zimbra nginx build
 
 %prep
 %setup -n nginx-%{version}-zimbra
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
