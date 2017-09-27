@@ -8,6 +8,7 @@ BuildRequires:      zimbra-perl-base
 Requires:           zimbra-perl-base
 AutoReqProv:        no
 URL:                https://metacpan.org/release/HTML-Parser
+Group:              Development/Perl
 
 %define perl_archname %(eval "`perl -V:archname`"; echo $archname)
 

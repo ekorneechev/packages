@@ -8,6 +8,7 @@ BuildRequires:      zimbra-perl-base, zimbra-openssl-devel
 Requires:           zimbra-perl-base, zimbra-openssl-libs
 AutoReqProv:        no
 URL:                http://search.cpan.org/dist/Crypt-OpenSSL-Random/
+Group:              Development/Perl
 
 %define perl_archname %(eval "`perl -V:archname`"; echo $archname)
 

@@ -8,6 +8,7 @@ BuildRequires:      zimbra-perl-base, perl-Test-Simple
 Requires:           zimbra-perl-base
 AutoReqProv:        no
 URL:                https://metacpan.org/release/Math-BigInt/
+Group:              Development/Perl
 
 %define perl_archname %(eval "`perl -V:archname`"; echo $archname)
 
