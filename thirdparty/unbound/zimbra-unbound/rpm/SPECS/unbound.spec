@@ -10,12 +10,14 @@ Requires:           expat, zimbra-openssl-libs
 Requires:           zimbra-unbound-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                https://www.unbound.net/
+Group:              System/Servers
 
 %description
 The Zimbra Unbound build
 
 %prep
 %setup -n unbound-%{version}
+%set_verify_elf_method skip
 %patch0 -p1
 
 %build
@@ -36,6 +38,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        Unbound Libaries
 Requires:       zimbra-openssl-libs, zimbra-dnscache-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-unbound-libs package contains the unbound libraries
@@ -44,6 +47,7 @@ The zimbra-unbound-libs package contains the unbound libraries
 Summary:        Unbound Development
 Requires: zimbra-unbound-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-unbound-devel package contains the linking libraries and include files
