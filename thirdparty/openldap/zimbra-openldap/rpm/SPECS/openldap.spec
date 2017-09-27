@@ -18,6 +18,7 @@ BuildRequires:      zimbra-cyrus-sasl-devel
 BuildRequires:      zimbra-libltdl-devel
 AutoReqProv:        no
 URL:                http://www.openldap.org
+Group: 		    System/Servers
 
 %description
 The Zimbra openldap build
@@ -42,6 +43,7 @@ The Zimbra openldap build
 
 %prep
 %setup -n openldap-%{version}
+%set_verify_elf_method skip
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
@@ -98,6 +100,7 @@ chmod 755 ${RPM_BUILD_ROOT}OZCL/libldap* ${RPM_BUILD_ROOT}OZCL/liblber*
 Summary:        openldap Libaries
 Requires: zimbra-openssl-libs, zimbra-cyrus-sasl-libs, zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-openldap-libs package contains the openldap libraries
@@ -106,6 +109,7 @@ The zimbra-openldap-libs package contains the openldap libraries
 Summary:        openldap Development
 Requires: zimbra-openldap-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-openldap-devel package contains the linking libraries and include files
@@ -115,6 +119,7 @@ Summary:        openldap server binaries
 Requires: zimbra-openldap-libs = %{version}-%{release}, zimbra-cyrus-sasl-libs
 Requires: zimbra-libltdl-libs, zimbra-ldap-base
 AutoReqProv:        no
+Group: System/Servers
 
 %description server
 The zimbra-openldap-server package contains slapd and its modules
@@ -123,6 +128,7 @@ The zimbra-openldap-server package contains slapd and its modules
 Summary:        openldap client binaries
 Requires: zimbra-openldap-libs = %{version}-%{release}, zimbra-cyrus-sasl-libs
 AutoReqProv:        no
+Group: Networking/Remote access
 
 %description client
 The zimbra-openldap-client package contains client tools such as ldapsearch
@@ -131,6 +137,7 @@ The zimbra-openldap-client package contains client tools such as ldapsearch
 Summary:        LMDB binaries
 Requires:       zimbra-ldap-base
 AutoReqProv:        no
+Group: Databases
 
 %description -n zimbra-lmdb
 The zimbra-lmdb package contains the lmdb binary commands
@@ -139,6 +146,7 @@ The zimbra-lmdb package contains the lmdb binary commands
 Summary:        LMDB libraries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description -n zimbra-lmdb-libs
 The zimbra-lmdb-libs package contains the lmdb library
@@ -147,6 +155,7 @@ The zimbra-lmdb-libs package contains the lmdb library
 Summary:        LMDB Development
 Requires: zimbra-lmdb-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description -n zimbra-lmdb-devel
 The zimbra-lmdb-devel package contains the linking libraries and include files
