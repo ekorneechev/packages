@@ -14,6 +14,7 @@ Requires:           zimbra-libxml2-libs
 Requires:           zlib, zimbra-spell-base
 AutoReqProv:        no
 URL:                http://php.net
+Group:              Development/Other
 
 %description
 The Zimbra PHP build
@@ -26,6 +27,7 @@ The Zimbra PHP build
 
 %prep
 %setup -n php-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
