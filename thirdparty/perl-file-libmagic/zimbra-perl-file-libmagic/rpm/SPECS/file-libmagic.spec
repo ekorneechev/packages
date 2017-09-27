@@ -6,8 +6,8 @@ License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
-BuildRequires:      zimbra-perl-base, file-devel
-Requires:           zimbra-perl-base, file-libs
+BuildRequires:      zimbra-perl-base, libmagic-devel 
+Requires:           zimbra-perl-base, libmagic
 AutoReqProv:        no
 URL:                https://metacpan.org/release/MODNAME
 
