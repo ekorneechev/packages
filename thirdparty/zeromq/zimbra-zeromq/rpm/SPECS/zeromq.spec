@@ -9,12 +9,14 @@ BuildRequires:      pkgconfig
 Requires:           zimbra-zeromq-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://zeromq.org/
+Group:              System/Libraries
 
 %description
 The Zimbra 0MQ build
 
 %prep
 %setup -n zeromq-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -32,6 +34,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        0MQ Libaries
 Requires:       zimbra-libsodium-libs, zimbra-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-zeromq-libs package contains the zeromq libraries
@@ -40,6 +43,7 @@ The zimbra-zeromq-libs package contains the zeromq libraries
 Summary:        0MQ Development
 Requires: zimbra-zeromq-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C++
 
 %description devel
 The zimbra-zeromq-devel package contains the linking libraries and include files
