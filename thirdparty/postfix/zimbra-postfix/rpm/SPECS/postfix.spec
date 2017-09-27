@@ -21,12 +21,14 @@ Patch3:             lmdb-default.patch
 Patch4:             pass-ip-address.patch
 AutoReqProv:        no
 URL:                https://www.postfix.org/
+Group:              System/Servers
 
 %description
 The Zimbra Postfix build
 
 %prep
 %setup -n postfix-%{version}
+%set_verify_elf_method skip
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
