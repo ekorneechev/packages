@@ -7,6 +7,7 @@ Source:             %{name}-%{version}.tgz
 Requires:           zimbra-base
 AutoReqProv:        no
 URL:                http://www.logwatch.org/
+Group:              Monitoring
 
 %description
 The Zimbra postfix-logwatch build
@@ -15,6 +16,7 @@ The Zimbra postfix-logwatch build
 
 %prep
 %setup -n postfix-logwatch-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
