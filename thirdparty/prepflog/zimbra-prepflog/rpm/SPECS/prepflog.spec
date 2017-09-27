@@ -8,6 +8,7 @@ Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           zimbra-base, zimbra-perl-base, zimbra-perl-date-calc
 AutoReqProv:        no
 URL:                http://www.voipsupport.it/pmwiki/pmwiki.php?n=Linux.PrePflog
+Group: Development/Perl
 
 %description
 The script sanitizes mail log files that are to be passed to pflogsumm or awstats
