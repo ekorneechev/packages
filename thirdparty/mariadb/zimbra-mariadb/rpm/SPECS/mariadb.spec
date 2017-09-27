@@ -19,11 +19,10 @@ The Zimbra MariaDB build for SQL database storage
 %prep
 %setup -n mariadb-%{version}
 %set_verify_elf_method skip
-sed -i "s|pcre.h|pcre/pcre.h|g" sql/item_cmpfunc.h
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
-CFLAGS="-O3 -fno-omit-frame-pointer -pipe -Wall -Wno-uninitialized -DNDEBUG -lpcre"; export CFLAGS; \
+CFLAGS="-O3 -fno-omit-frame-pointer -pipe -Wall -Wno-uninitialized -DNDEBUG"; export CFLAGS; \
 /usr/bin/cmake . \
   -DBUILD_CONFIG=mysql_release \
   -DCOMPILATION_COMMENT="Zimbra MariaDB binary distribution" \
