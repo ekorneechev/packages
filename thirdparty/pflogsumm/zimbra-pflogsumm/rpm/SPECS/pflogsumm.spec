@@ -8,6 +8,7 @@ Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           zimbra-base, zimbra-perl-base, zimbra-perl-date-calc
 AutoReqProv:        no
 URL:                http://jimsun.linxnet.com/postfix_contrib.html
+Group:              Monitoring
 
 %description
 pflogsumm.pl is designed to provide an over-view of postfix
