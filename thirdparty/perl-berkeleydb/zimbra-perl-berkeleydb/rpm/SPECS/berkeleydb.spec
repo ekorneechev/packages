@@ -23,6 +23,7 @@ DB 3.x or later are not available via this module.
 
 %prep
 %setup -n MODNAME-%{version}
+%set_verify_elf_method skip
 
 %build
 export BERKELEYDB_LIB=OZCL; \

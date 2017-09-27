@@ -19,6 +19,7 @@ The Zimbra Crypt::OpenSSL::Random build
 
 %prep
 %setup -n Crypt-OpenSSL-Random-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \

@@ -23,6 +23,7 @@ The Net::SSLeay module basically comprises:
 
 %prep
 %setup -n Net-SSLeay-%{version}
+%set_verify_elf_method skip
 
 %build
 # Notes/Workarounds:

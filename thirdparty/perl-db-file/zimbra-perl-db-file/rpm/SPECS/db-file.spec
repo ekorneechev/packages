@@ -22,6 +22,7 @@ The interface defined here mirrors the Berkeley DB interface closely.
 
 %prep
 %setup -n MODNAME-%{version}
+%set_verify_elf_method skip
 
 %build
 export DB_FILE_LIB=OZCL; \

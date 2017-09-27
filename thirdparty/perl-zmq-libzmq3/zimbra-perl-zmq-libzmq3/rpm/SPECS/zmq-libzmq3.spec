@@ -23,6 +23,7 @@ use this module.
 
 %prep
 %setup -n ZMQ-LibZMQ3-%{version}
+%set_verify_elf_method skip
 
 %build
 # Notes/Workarounds:
