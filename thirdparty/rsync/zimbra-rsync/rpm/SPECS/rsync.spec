@@ -4,16 +4,18 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            GPL-3
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      popt-devel
-Requires:           popt, zimbra-base
+BuildRequires:      libpopt-devel
+Requires:           libpopt, zimbra-base
 AutoReqProv:        no
 URL:                https://rsync.samba.org
+Group:              Networking/File transfer
 
 %description
 The Zimbra rsync build
 
 %prep
 %setup -n rsync-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
