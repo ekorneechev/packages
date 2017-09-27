@@ -5,12 +5,14 @@ Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 URL:                https://github.com/gperftools/gperftools
+Group: 		    Development/Other
 
 %description
 The Zimbra tcmalloc build
 
 %prep
 %setup -n gperftools-%{version}
+%set_verify_elf_method skip
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -26,6 +28,7 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 Summary:        tcmalloc Libaries
 Requires:       zimbra-base
 AutoReqProv:        no
+Group: Development/Other
 
 %description libs
 The zimbra-tcmalloc-libs package contains the tcmalloc libraries
@@ -34,6 +37,7 @@ The zimbra-tcmalloc-libs package contains the tcmalloc libraries
 Summary:        tcmalloc Development
 Requires: zimbra-tcmalloc-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/Other
 
 %description devel
 The zimbra-tcmalloc-devel package contains the linking libraries and include files
