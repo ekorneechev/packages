@@ -4,7 +4,7 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-BuildRequires:      zimbra-perl-base, perl-Test-Simple
+BuildRequires:      zimbra-perl-base, perl-devel
 Requires:           zimbra-perl-base
 AutoReqProv:        no
 URL:                https://metacpan.org/release/Math-BigInt/
