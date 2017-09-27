@@ -8,6 +8,7 @@ Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           zimbra-base
 AutoReqProv:        no
 URL:                https://github.com/roehling/postsrsd
+Group:              System/Servers
 
 %description
 PostSRSd provides the Sender Rewriting Scheme (SRS) via TCP-based
@@ -16,6 +17,7 @@ as forwarder.
 
 %prep
 %setup -n postsrsd-%{version}
+%set_verify_elf_method skip
 
 %build
 mkdir build && \
