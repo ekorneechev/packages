@@ -4,18 +4,22 @@ Version:            VERSION
 Release:            alt1.zimbra844
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
+Patch0:		    net-snmp-%{version}-alt.patch
 BuildRequires:      zimbra-openssl-devel
-BuildRequires:      perl-devel
-Requires:           perl, perl-core
+BuildRequires:      libnl-devel librpm-devel libsensors3-devel libwrap-devel pdksh perl-devel python-module-setuptools perl-Tk perl-Term-ReadLine-Gnu perl-libnet perl-XML-Simple perl-podlators chrpath
+Requires:           perl
 Requires:           zimbra-net-snmp-libs = %{version}-%{release}
 AutoReqProv:        no
 URL:                http://www.net-snmp.org/
+Group:              System/Servers
 
 %description
 The Zimbra NetSNMP build
 
 %prep
 %setup -n net-snmp-%{version}
+%set_verify_elf_method skip
+%patch0 -p1
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
@@ -40,6 +44,7 @@ rm -f %{buildroot}OZCL/perl5/%{perl_archname}/auto/*/*/.packlist
 Summary:            NetSNMP Libaries
 Requires:           zimbra-openssl-libs, zimbra-snmp-base
 AutoReqProv:        no
+Group: System/Libraries
 
 %description libs
 The zimbra-net-snmp-libs package contains the net-snmp libraries
@@ -48,6 +53,7 @@ The zimbra-net-snmp-libs package contains the net-snmp libraries
 Summary:        NetSNMP Development
 Requires:       zimbra-net-snmp-libs = %{version}-%{release}
 AutoReqProv:        no
+Group: Development/C
 
 %description devel
 The zimbra-net-snmp-devel package contains the linking libraries and include files
