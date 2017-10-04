@@ -1,7 +1,7 @@
 Summary:            SOAP::Lite - Perl's Web Services Toolkit
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

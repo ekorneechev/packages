@@ -1,7 +1,7 @@
 Summary:            Mozilla's CA cert bundle in PEM format
 Name:               zimbra-perl-mozilla-ca
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            MPL-2
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

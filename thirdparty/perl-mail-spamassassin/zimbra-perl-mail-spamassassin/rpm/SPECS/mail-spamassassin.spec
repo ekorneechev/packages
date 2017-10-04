@@ -1,7 +1,7 @@
 Summary:            Mail::SpamAssassin - Spam detector and markup engine
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             spamassassin-net-dns.patch

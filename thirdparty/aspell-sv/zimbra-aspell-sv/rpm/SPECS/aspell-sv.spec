@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Swedish dictionary
 Name:               zimbra-aspell-sv
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            Public Domain
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

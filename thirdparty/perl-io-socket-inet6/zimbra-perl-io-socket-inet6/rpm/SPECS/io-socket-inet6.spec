@@ -1,7 +1,7 @@
 Summary:            IO::Socket::INET6 - Object interface for AF_INET/AF_INET6 domain sockets
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

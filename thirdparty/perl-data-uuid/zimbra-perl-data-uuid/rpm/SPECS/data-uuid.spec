@@ -1,7 +1,7 @@
 Summary:            Data::UUID - Globally/Universally Unique Identifiers (GUIDs/UUIDs)
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

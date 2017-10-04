@@ -1,7 +1,7 @@
 Summary:            IO::HTML - Open an HTML file with automatic charset detection 
 Name:               zimbra-perl-io-html
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

@@ -1,7 +1,7 @@
 Summary:            Cache::FastMmap - Uses an mmap'ed file to act as a shared memory interprocess cache
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

@@ -1,7 +1,7 @@
 Summary:            Zimbra's Curl build
 Name:               zimbra-curl
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      glibc-devel-static groff-base libidn-devel libssh2-devel libssl-devel zlib-devel python-modules libnghttp2-devel python-modules-logging python-modules-xml

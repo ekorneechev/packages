@@ -1,7 +1,7 @@
 Summary:            Zimbra's Secure Socket Layer build
 Name:               zimbra-openssl
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            OpenSSL
 Source:             %{name}-%{version}.tar.gz
 Patch:              ipv6.patch

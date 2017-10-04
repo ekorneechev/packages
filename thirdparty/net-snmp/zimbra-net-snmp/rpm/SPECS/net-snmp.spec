@@ -1,7 +1,7 @@
 Summary:            Zimbra's NetSNMP build
 Name:               zimbra-net-snmp
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 Patch0:		    net-snmp-%{version}-alt.patch

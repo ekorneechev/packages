@@ -1,7 +1,7 @@
 Summary:            Zimbra's postfix-logwatch build
 Name:               zimbra-postfix-logwatch
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            MIT
 Source:             %{name}-%{version}.tgz
 Requires:           zimbra-base

@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Spanish dictionary
 Name:               zimbra-aspell-es
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

@@ -1,7 +1,7 @@
 Summary:            Zimbra's Postfix build
 Name:               zimbra-postfix
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            IPL-1.0
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-openldap-devel

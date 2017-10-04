@@ -1,7 +1,7 @@
 Summary:            Zimbra custom dictionary
 Name:               zimbra-aspell-zimbra
 Version:            1.0.0
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2
 BuildRequires:      zimbra-aspell-en
 Requires:           zimbra-aspell-en

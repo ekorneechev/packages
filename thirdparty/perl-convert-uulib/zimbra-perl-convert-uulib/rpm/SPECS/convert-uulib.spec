@@ -1,7 +1,7 @@
 Summary:            Convert::UUlib - Perl interface to the uulib library (a.k.a. uudeview/uuenview)
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2 or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

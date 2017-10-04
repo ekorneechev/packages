@@ -1,7 +1,7 @@
 Summary:            IO-stringy - I/O on in-core objects like strings and arrays
 Name:               zimbra-perl-io-stringy
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

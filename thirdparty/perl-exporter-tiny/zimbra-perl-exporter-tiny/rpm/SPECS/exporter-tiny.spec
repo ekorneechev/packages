@@ -1,7 +1,7 @@
 Summary:            Exporter::Tiny - an exporter with the features of Sub::Exporter but only core dependencies 
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

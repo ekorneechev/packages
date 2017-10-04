@@ -1,7 +1,7 @@
 Summary:            Zimbra's Storable build
 Name:               zimbra-perl-storable
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base

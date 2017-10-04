@@ -1,7 +1,7 @@
 Summary:            Postfix Log Entry Summarizer
 Name:               zimbra-pflogsumm
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

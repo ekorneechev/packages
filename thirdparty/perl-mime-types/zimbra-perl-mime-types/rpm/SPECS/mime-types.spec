@@ -1,7 +1,7 @@
 Summary:            MIME-Types - Definition of MIME Types
 Name:               zimbra-perl-mime-types
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

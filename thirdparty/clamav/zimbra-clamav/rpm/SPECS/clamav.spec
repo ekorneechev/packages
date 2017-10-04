@@ -1,7 +1,7 @@
 Summary:            Zimbra's ClamAV build
 Name:               zimbra-clamav
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      bzlib-devel libcheck-devel libncurses-devel zlib-devel libcurl-devel libssl-devel libxml2-devel libpcre-devel

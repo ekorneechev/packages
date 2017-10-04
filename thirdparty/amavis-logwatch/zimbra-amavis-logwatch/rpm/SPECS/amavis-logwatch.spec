@@ -1,7 +1,7 @@
 Summary:            Zimbra's amavis-logwatch build
 Name:               zimbra-amavis-logwatch
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            MIT
 Source:             %{name}-%{version}.tgz
 Requires:           zimbra-base

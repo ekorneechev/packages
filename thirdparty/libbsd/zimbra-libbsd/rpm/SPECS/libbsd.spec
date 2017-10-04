@@ -1,7 +1,7 @@
 Summary:            Zimbra's libbsd build
 Name:               zimbra-libbsd
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            BSD
 Source:             %{name}-%{version}.tar.xz
 URL:                http://libbsd.freedesktop.org/

@@ -1,7 +1,7 @@
 Summary:            Zimbra's RRDTool build
 Name:               zimbra-rrdtool
 Version:            VERSION
-Release:            alt1.zimbra844
+Release:            alt1.zimbra884
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-libpng-devel
