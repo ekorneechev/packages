@@ -7,7 +7,7 @@ Requires:           zimbra-base, zimbra-os-requirements, zimbra-perl, zimbra-pfl
 Requires:           zimbra-openssl >= 1.0.2l-alt1.zimbra884,zimbra-curl, zimbra-cyrus-sasl, zimbra-rsync
 Requires:           zimbra-mariadb-libs >= 10.1.25-alt1.zimbra884, zimbra-openldap-client, zimbra-osl
 Requires:           zimbra-prepflog, zimbra-tcmalloc-libs, zimbra-perl-innotop
-Requires:           zimbra-openjdk >= 1.8.0u144b01-alt1.zimbra844, zimbra-openjdk-cacerts, zimbra-amavis-logwatch
+Requires:           zimbra-openjdk >= 1.8.0u144b01-alt1.zimbra884, zimbra-openjdk-cacerts, zimbra-amavis-logwatch
 Requires:           zimbra-postfix-logwatch, zimbra-rrdtool
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages

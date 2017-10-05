@@ -7,7 +7,7 @@ Requires:           zimbra-spell-base, zimbra-aspell-ar, zimbra-aspell-da, zimbr
 Requires:           zimbra-aspell-en, zimbra-aspell-es, zimbra-aspell-fr, zimbra-aspell-hi
 Requires:           zimbra-aspell-hu, zimbra-aspell-it, zimbra-aspell-nl, zimbra-aspell-pl
 Requires:           zimbra-aspell-pt-br, zimbra-aspell-ru, zimbra-aspell-sv, zimbra-httpd,
-Requires:           zimbra-php >= 5.6.31-alt1.zimbra844, zimbra-aspell-zimbra
+Requires:           zimbra-php >= 5.6.31-alt1.zimbra884, zimbra-aspell-zimbra
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
