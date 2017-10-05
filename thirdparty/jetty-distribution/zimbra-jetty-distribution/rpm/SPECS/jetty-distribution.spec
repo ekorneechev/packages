@@ -1,7 +1,7 @@
 Summary:            Zimbra's jetty-distribution build
 Name:               zimbra-jetty-distribution
 Version:            VERSION
-Release:            2.PKG_OS_TAG
+Release:            alt1.zimbra884
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-store-base
