@@ -411,6 +411,8 @@ Requires: %{name}-src = %{version}-%{release}
 Requires: %{name}-devel = %{version}-%{release}
 Requires: %{name}-accessibility = %{version}-%{release}
 
+Requires: zimbra-base
+
 # Standard JPackage base provides.
 Provides: jre-%{javaver}-%{origin} = %{version}-%{release}
 Provides: jre-%{origin} = %{version}-%{release}
