@@ -9,6 +9,7 @@ BuildRequires:      zimbra-openjdk
 Requires:           zimbra-openjdk
 AutoReqProv:        no
 URL:                https://maven.apache.org/
+Group:              Development/Java
 
 %description
 The Zimbra maven build
