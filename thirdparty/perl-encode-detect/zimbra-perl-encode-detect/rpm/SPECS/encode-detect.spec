@@ -35,11 +35,10 @@ PERL5LIB=OZCL/perl5 make test
 %define perl_archname %(perl -MConfig -e 'print $Config{archname}')
 %install
 make install DESTDIR=${RPM_BUILD_ROOT}
-rm -f %{buildroot}OZCL/perl5/%{perl_archname}/perllocal.pod
-rm -f %{buildroot}OZCL/perl5/%{perl_archname}/auto/*/*/.packlist
-mkdir -p %{buildroot}OZCS/man/man3
-cp %{buildroot}OZC/man/man3/* %{buildroot}OZCS/man/man3
-rm -rf %{buildroot}OZC/man
+find %{buildroot} -name .packlist -exec rm -rf {} +
+mkdir -p %{buildroot}OZCS/man/man3 %{buildroot}OZCL/perl5
+find %{buildroot} -name *.3pm -exec cp {} %{buildroot}OZCS/man/man3 \;
+find %{buildroot} -name %{perl_archname} -type d -exec cp -R {} %{buildroot}OZCL/perl5/ \;
 
 %files
 %defattr(-,root,root)
