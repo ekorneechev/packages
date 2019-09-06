@@ -2,9 +2,10 @@ PKG_ROOT := $(shell pwd)
 
 include $(PKG_ROOT)/../../package.def
 
-pvers := $(ASPELL_VERSION)
+dictver := $(ASPELL_VERSION)
+pvers := $(ASPELL_NORM)
 pname := aspell
-pfile := $(pname)-$(pvers).tar.gz
+pfile := $(pname)-$(dictver).tar.gz
 psrc_file := $(SRC_DIR)/$(pfile)
 purl := ftp://alpha.gnu.org/gnu/aspell/$(pfile)
 zname := zimbra-$(pname)
@@ -29,6 +30,7 @@ build_rpm:
 	$(CD) $(PLATFORM_DIR)/$(zname)/rpm && \
 	$(replace-pkginfo) $(specfile) && \
 	$(replace-pathinfo) $(specfile) && \
+	$(replace-dictinfo) $(specfile) && \
 	$(MKDIR) BUILD BUILDROOT RPMS SOURCES SRPMS && \
 	$(CP) $(psrc_file) SOURCES/$(zname)-$(pvers).tar.gz && \
 	$(PKG_BUILD) $(specfile)

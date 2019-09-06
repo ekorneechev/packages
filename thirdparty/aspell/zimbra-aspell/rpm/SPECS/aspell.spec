@@ -15,7 +15,7 @@ The Zimbra Aspell build
 
 %prep
 %set_verify_elf_method skip
-%setup -n aspell-%{version}
+%setup -n aspell-ADICT
 
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
