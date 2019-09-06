@@ -17,6 +17,12 @@ Group: 		    System/Servers
 %description
 The Zimbra Apache HTTPD build
 
+%changelog
+* Fri Feb 08 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> 
+-Updated the version.
+* Fri May 01 2015  Zimbra Packaging Services <packaging-devel@zimbra.com>
+-Initial Release.
+
 %prep
 %setup -n httpd-%{version}
 %set_verify_elf_method skip

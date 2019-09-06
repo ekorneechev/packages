@@ -20,6 +20,8 @@ Group:              Development/Other
 The Zimbra PHP build
 
 %changelog
+* Wed Feb 08 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> -
+-Updated PHP version.
 * Wed Jul 28 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> -
 -Bug 106089: Updated PHP.
 * Fri May 01 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> -

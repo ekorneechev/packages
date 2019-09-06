@@ -20,6 +20,8 @@ Group:   	    Development/Java
 The Zimbra OpenJDK build
 
 %changelog
+* Fri May 18 2018 Zimbra Packaging Services <packaging-devel@zimbra.com> -
+- Update version to 1.8 update 172 build 01
 * Fri Jul 28 2016 Zimbra Packaging Services <packaging-devel@zimbra.com> -
 - Update version to 1.8 update 144 build 01
 * Mon Mar 28 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
