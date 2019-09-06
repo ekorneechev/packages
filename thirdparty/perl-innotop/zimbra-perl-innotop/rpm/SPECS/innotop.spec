@@ -1,7 +1,7 @@
 Summary:            innotop - mariadb monitor
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 Patch0:             inno.patch

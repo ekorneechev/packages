@@ -1,7 +1,7 @@
 Summary:            Zimbra's ExtUtils::Constant build
 Name:               zimbra-perl-extutils-constant
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base

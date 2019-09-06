@@ -1,7 +1,7 @@
 Summary:            Zimbra's OpenJDK build
 Name:               zimbra-openjdk
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
 BuildRequires:      zip, unzip, libX11-devel, libXau-devel, libXext-devel, libXfixes-devel

@@ -1,7 +1,7 @@
 Summary:            Zimbra's openldap build
 Name:               zimbra-openldap
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            BSD
 Source:             %{name}-%{version}.tgz
 Patch0:             ITS5037.patch

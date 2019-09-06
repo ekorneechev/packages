@@ -1,7 +1,7 @@
 Summary:            XML::NamespaceSupport - a simple generic namespace support class
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

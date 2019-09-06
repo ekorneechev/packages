@@ -1,7 +1,7 @@
 Summary:            Initial ClamAV Databases for ClamAV
 Name:               zimbra-clamav-db
 Version:            1.0.0
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Requires:           zimbra-base
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

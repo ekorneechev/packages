@@ -1,7 +1,7 @@
 Summary:            Zimbra components for MTA package
 Name:               zimbra-mta-components
 Version:            1.0.5
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Requires:           sqlite, zimbra-mta-base, zimbra-altermime, zimbra-amavisd
 Requires:           zimbra-clamav, zimbra-clamav-db, zimbra-cluebringer, zimbra-mariadb

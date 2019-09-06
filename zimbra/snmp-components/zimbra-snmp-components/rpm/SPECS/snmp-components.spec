@@ -1,7 +1,7 @@
 Summary:            Zimbra components for snmp package
 Name:               zimbra-snmp-components
 Version:            1.0.0
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Requires:           zimbra-snmp-base, zimbra-net-snmp
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

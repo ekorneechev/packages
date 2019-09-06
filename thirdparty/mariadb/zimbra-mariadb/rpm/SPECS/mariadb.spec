@@ -1,7 +1,7 @@
 Summary:            Zimbra's MariaDB build
 Name:               zimbra-mariadb
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPLv2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      libaio-devel

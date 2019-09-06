@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell German dictionary
 Name:               zimbra-aspell-de
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

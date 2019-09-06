@@ -1,7 +1,7 @@
 Summary:            a libzmq 3.x wrapper for Perl
 Name:               zimbra-perl-zmq-libzmq3
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            Artistic 2.0
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

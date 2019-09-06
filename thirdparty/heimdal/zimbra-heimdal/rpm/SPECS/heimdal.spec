@@ -1,7 +1,7 @@
 Summary:            Zimbra's Heimdal Kerberos build
 Name:               zimbra-heimdal
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-openssl-devel

@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Dutch dictionary
 Name:               zimbra-aspell-nl
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            Public Domain
 Patch0:             aspell-nl.patch
 Source:             %{name}-%{version}.tar.bz2

@@ -1,7 +1,7 @@
 Summary:            CA Certs keystore for OpenJDK
 Name:               zimbra-openjdk-cacerts
 Version:            1.0.5
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            MPL-2
 Requires:           zimbra-base, zimbra-openjdk
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

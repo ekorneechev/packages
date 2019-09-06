@@ -1,7 +1,7 @@
 Summary:            a client LDAP services API
 Name:               zimbra-perl-net-ldap
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            Artistic 2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             net-ldap-keepalive.patch

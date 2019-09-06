@@ -1,7 +1,7 @@
 Summary:            Zimbra's Apache Portable Runtime build
 Name:               zimbra-apr
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.bz2
 Requires:           zimbra-apr-libs = %{version}-%{release}

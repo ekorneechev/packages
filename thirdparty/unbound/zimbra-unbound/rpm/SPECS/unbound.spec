@@ -1,7 +1,7 @@
 Summary:            Zimbra's Unbound build
 Name:               zimbra-unbound
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 Patch0:             log-facility.patch

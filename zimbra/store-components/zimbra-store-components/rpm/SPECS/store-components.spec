@@ -1,9 +1,9 @@
 Summary:            Zimbra components for store package
 Name:               zimbra-store-components
 Version:            1.0.1
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
-Requires:           zimbra-store-base, zimbra-mariadb >= 10.1.25-alt1.zimbra884
+Requires:           zimbra-store-base, zimbra-mariadb >= 10.1.25-alt1.zimbra8.8.15
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no

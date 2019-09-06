@@ -1,7 +1,7 @@
 Summary:            Email-Date-Format - Produce RFC 2822 date strings
 Name:               zimbra-perl-email-date-format
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

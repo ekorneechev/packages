@@ -1,7 +1,7 @@
 Summary:            Compress::Raw::Zlib - Low-Level Interface to zlib compression library 
 Name:               zimbra-perl-compress-raw-zlib
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

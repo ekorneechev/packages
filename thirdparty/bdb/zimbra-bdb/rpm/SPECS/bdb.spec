@@ -1,7 +1,7 @@
 Summary:            Zimbra's Berkeley DB build
 Name:               zimbra-bdb
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            Sleepycat
 Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-bdb-libs = %{version}-%{release}

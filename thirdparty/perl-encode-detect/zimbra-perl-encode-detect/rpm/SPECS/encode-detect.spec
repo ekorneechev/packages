@@ -1,7 +1,7 @@
 Summary:            Encode::Detect - An Encode::Encoding subclass that detects the encoding of data 
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            MPL-1.1, GPL-2, LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

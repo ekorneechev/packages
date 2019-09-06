@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell Russian dictionary
 Name:               zimbra-aspell-ru
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            MIT
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell

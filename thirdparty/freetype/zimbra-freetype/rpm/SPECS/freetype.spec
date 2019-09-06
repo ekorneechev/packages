@@ -1,7 +1,7 @@
 Summary:            Zimbra's freetype build
 Name:               zimbra-freetype
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2.0
 BuildRequires:      zlib-devel, bzip2-devel
 Source:             %{name}-%{version}.tar.gz

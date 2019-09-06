@@ -1,7 +1,7 @@
 Summary:            ClueBringer Policy Daemon
 Name:               zimbra-cluebringer
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

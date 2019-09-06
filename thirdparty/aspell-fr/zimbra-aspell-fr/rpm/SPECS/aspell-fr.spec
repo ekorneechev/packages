@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell French dictionary
 Name:               zimbra-aspell-fr
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2.0
 Patch0:             aspell-fr.patch
 Source:             %{name}-%{version}.tar.bz2

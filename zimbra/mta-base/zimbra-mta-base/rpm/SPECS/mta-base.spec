@@ -1,7 +1,7 @@
 Summary:            Zimbra MTA Base
 Name:               zimbra-mta-base
 Version:            1.0.1
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages

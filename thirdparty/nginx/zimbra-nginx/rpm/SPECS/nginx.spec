@@ -1,7 +1,7 @@
 Summary:            Zimbra's nginx build
 Name:               zimbra-nginx
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 Release:            1zimbra8.7b12ZAPPEND
 License:            MIT
 Source:             %{name}-%{version}.tar.gz

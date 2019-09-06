@@ -1,7 +1,7 @@
 Summary:        Zimbra Perl
 Name:           zimbra-perl
 Version:        1.0.3
-Release:        alt1.zimbra884
+Release:        alt1.zimbra8.8.15
 License:        GPL-2
 Packager:       Zimbra Packaging Services <packaging-devel@zimbra.com>
 Group:          Development/Languages
@@ -11,7 +11,7 @@ Requires:       zimbra-perl-carp-clan, zimbra-perl-class-inspector, zimbra-perl-
 Requires:       zimbra-perl-compress-raw-zlib, zimbra-perl-config-inifiles, zimbra-perl-convert-asn1
 Requires:       zimbra-perl-convert-binhex, zimbra-perl-convert-tnef, zimbra-perl-convert-uulib
 Requires:       zimbra-perl-crypt-openssl-random, zimbra-perl-crypt-openssl-rsa, zimbra-perl-crypt-saltedhash
-Requires:       zimbra-perl-data-uuid, zimbra-perl-date-calc, zimbra-perl-date-manip, zimbra-perl-dbd-mysql >= 4.041-alt1.zimbra884
+Requires:       zimbra-perl-data-uuid, zimbra-perl-date-calc, zimbra-perl-date-manip, zimbra-perl-dbd-mysql >= 4.041-alt1.zimbra8.8.15
 Requires:       zimbra-perl-dbd-sqlite, zimbra-perl-db-file, zimbra-perl-dbi, zimbra-perl-digest-hmac
 Requires:       zimbra-perl-digest-sha1, zimbra-perl-email-date-format, zimbra-perl-encode-detect
 Requires:       zimbra-perl-encode-locale, zimbra-perl-error, zimbra-perl-exporter-tiny, zimbra-perl-zmq-libzmq3

@@ -1,7 +1,7 @@
 Summary:            Geography::Countries - 2-letter, 3-letter, and numerical codes for countries
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>

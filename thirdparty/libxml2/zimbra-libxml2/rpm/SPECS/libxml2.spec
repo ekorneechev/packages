@@ -1,7 +1,7 @@
 Summary:            Zimbra's LibXML2 build
 Name:               zimbra-libxml2
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zlib-devel

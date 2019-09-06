@@ -2,7 +2,7 @@ Summary:            Zimbra's memcached build
 Name:               zimbra-memcached
 Epoch:              1
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-libevent-devel

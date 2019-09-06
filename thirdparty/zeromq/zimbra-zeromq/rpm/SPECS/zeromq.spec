@@ -1,7 +1,7 @@
 Summary:            Zimbra's 0MQ build
 Name:               zimbra-zeromq
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            LGPL-3
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-libsodium-devel

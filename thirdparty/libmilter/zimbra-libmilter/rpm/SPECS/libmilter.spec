@@ -1,7 +1,7 @@
 Summary:            Zimbra's libmilter build
 Name:               zimbra-libmilter
 Version:            VERSION
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            SENDMAIL
 Patch0:             ipv6.patch
 Source:             %{name}-%{version}.tar.gz

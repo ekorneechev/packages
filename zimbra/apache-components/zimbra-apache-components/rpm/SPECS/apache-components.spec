@@ -1,9 +1,9 @@
 Summary:            Zimbra components for apache package
 Name:               zimbra-apache-components
 Version:            1.0.1
-Release:            alt1.zimbra884
+Release:            alt1.zimbra8.8.15
 License:            GPL-2
-Requires:           zimbra-apache-base, zimbra-httpd, zimbra-php >= 5.6.31-alt1.zimbra884
+Requires:           zimbra-apache-base, zimbra-httpd, zimbra-php >= 5.6.31-alt1.zimbra8.8.15
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
