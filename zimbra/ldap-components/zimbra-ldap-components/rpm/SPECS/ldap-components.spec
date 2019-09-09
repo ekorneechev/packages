@@ -5,7 +5,6 @@ Release:            alt1.zimbra8.8.15
 License:            GPL-2
 Requires:           zimbra-ldap-base, zimbra-lmdb, zimbra-openldap-server
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
-License:            GPL-2
 Group:              Development/Languages
 AutoReqProv:        no
 
