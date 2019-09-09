@@ -24,6 +24,8 @@ The Zimbra NetSNMP build
 %build
 LDFLAGS="-Wl,-rpath,OZCL"; export LDFLAGS; \
 CFLAGS="-O2 -g"; export CFLAGS; \
+## https://sourceforge.net/p/net-snmp/bugs/2951/#9d6d
+sed -i s/"define HAVE_LIBRPM 1"/""/g configure; \
 ./configure --prefix=OZC \
   --with-default-snmp-version=3 --with-sys-contact="admin" \
   --with-sys-location="unknown" --with-logfile="/opt/zimbra/log/snmpd.log" \
