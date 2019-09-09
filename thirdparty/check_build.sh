@@ -8,4 +8,4 @@ done
 
 find . -name BUILD.OK | wc -l
 echo 'Need:'
-ls |  wc -l
+ls | grep -v ".sh" | wc -l
