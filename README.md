@@ -21,11 +21,11 @@ To build the packages in this repository please checkout the following repositor
        $ cd zimbra ; ./check_build.sh
        22
        Need:
-       24
+       23
 3. Запускаем копирование собранных пакетов в локальный репозиторий:
 
        $ cd .. ; sudo ./update.sh
-4. Далее снова запускаем сборку, вполне возможно требования уже будут выполнены.
+4. Далее снова запускаем сборку, вполне возможно требования уже будут выполнены (или нужны пакеты thirdparty).
 5. После успешной сборки всех пакетов в папке zimbra, собираем (так же рекурсивно) пакеты thirdparty
 
        $ make_perl.sh; sudo ./update.sh
