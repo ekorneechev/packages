@@ -16,7 +16,7 @@ zspec := $(pname_lc).spec
 all: checkos clean getsrc build pkgrm1
 
 checkos:
-ifneq ($(BUILD_PLATFORM), RHEL6_64)
+ifneq ($(BUILD_PLATFORM), ALT_64)
 	@echo "Skipping OS, not required"
 	@exit 1
 endif
