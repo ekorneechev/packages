@@ -13,7 +13,7 @@ To build the packages in this repository please checkout the following repositor
 
 BuildRequires:
     
-    perl-Test-Inter perl-CPAN perl-Module-Build perl-Test-TrailingSpace \
+    perl-Test-Inter perl-CPAN perl-Module-Build perl-Test-TrailingSpace perl-bignum \
     perl-Test-Pod perl-Test-Pod-Coverage perl-XML-SAX perl-Test-Deep perl-DBM perl-PlRPC \
     perl-Socket6 perl-Encode-JP perl-Tk perl-Test-Warn libmagic-devel libidn-devel libncurses-devel \
     libexpat-devel zlib-devel bzip2-devel pcre-devel libnl-devel librpm-devel libsensors3-devel \
