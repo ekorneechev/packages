@@ -6,7 +6,7 @@ pvers := $(MARIADB_VERSION)
 pname := mariadb
 pfile := $(pname)-$(pvers).tar.gz
 psrc_file := $(SRC_DIR)/$(pfile)
-purl := https://github.com/MariaDB/server/archive/$(pname)-$(pvers).tar.gz
+purl := ftp://localhost/local/$(pname)/$(pfile)
 zname := zimbra-$(pname)
 zspec := $(pname).spec
 

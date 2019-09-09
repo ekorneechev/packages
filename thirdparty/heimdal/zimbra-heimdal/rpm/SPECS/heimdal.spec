@@ -15,7 +15,7 @@ Group:              System/Libraries
 The Zimbra Heimdal Kerberos build for additional encryption services
 
 %prep
-%setup -n heimdal-heimdal-%{version}
+%setup -n heimdal-%{version}
 %set_verify_elf_method skip
 
 %build
