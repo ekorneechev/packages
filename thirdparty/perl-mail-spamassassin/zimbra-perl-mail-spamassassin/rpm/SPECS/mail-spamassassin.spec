@@ -54,7 +54,7 @@ PERL5LIB=OZCL/perl5 make
 %install
 PERL5LIB=OZCL/perl5 make install DESTDIR=${RPM_BUILD_ROOT}
 rm -rf %{buildroot}OZCL/perl5/%{perl_archname}
-rm -rf %{buildroot}/opt/zimbra/common/data/spamassassin/rules
+rm -rf %{buildroot}/opt/zimbra/data/spamassassin/rules
 sed -i -e 's/^#loadplugin Mail::SpamAssassin::Plugin::DCC/loadplugin Mail::SpamAssassin::Plugin::DCC/' \
  %{buildroot}/opt/zimbra/data/spamassassin/localrules/v310.pre
 sed -i -e 's/^# loadplugin Mail::SpamAssassin::Plugin::Rule2XSBody/loadplugin Mail::SpamAssassin::Plugin::Rule2XSBody/' \
