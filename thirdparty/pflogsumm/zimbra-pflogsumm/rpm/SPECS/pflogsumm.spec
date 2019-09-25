@@ -33,3 +33,8 @@ sed -i -e '/=head1 NAME/ i use lib qw(/opt/zimbra/common/lib/perl5);' ${RPM_BUIL
 %defattr(-,root,root)
 OZCB
 OZCS
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

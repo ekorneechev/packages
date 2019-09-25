@@ -20,3 +20,8 @@ cp ../../../rules/updates_spamassassin_org/* ${RPM_BUILD_ROOT}/opt/zimbra/data/s
 %files
 %defattr(-,zimbra,zimbra)
 /opt/zimbra/data/spamassassin/rules
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+- Initial build for p8
+

@@ -45,3 +45,8 @@ The zimbra-libmilter-devel package contains the linking libraries and include fi
 %dir OZCI/libmilter
 OZCI/libmilter
 OZCL/libmilter.a
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

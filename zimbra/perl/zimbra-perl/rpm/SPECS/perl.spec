@@ -40,11 +40,8 @@ of the Zimbra required perl modules.  The current sole exception is
 the Mail::SpamAssassin module, as that is for MTA nodes only
 
 %changelog
-* Thu Sep 7 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3
-- Updated perl-dbd-mysql
-* Fri Sep 22 2016 Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
-- Really add zimbra-perl-file-libmagic
-* Thu Jan 21 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Add zimbra-perl-file-libmagic
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.3-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %files

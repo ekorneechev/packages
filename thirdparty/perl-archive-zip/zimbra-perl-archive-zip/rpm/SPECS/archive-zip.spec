@@ -40,3 +40,8 @@ rm -rf %{buildroot}OZCB
 %defattr(-,root,root)
 OZCL
 OZCS/man
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

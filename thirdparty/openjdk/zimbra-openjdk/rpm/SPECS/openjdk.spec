@@ -20,14 +20,9 @@ Group:   	    Development/Java
 The Zimbra OpenJDK build
 
 %changelog
-* Fri May 18 2018 Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Update version to 1.8 update 172 build 01
-* Fri Jul 28 2016 Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Update version to 1.8 update 144 build 01
-* Mon Mar 28 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Update version to 1.8 update 77 build 03
-* Thu Feb 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Fix cacerts handling to avoid conflicts
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n openjdk-%{version}

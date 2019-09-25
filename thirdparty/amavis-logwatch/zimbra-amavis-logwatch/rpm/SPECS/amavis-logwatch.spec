@@ -38,3 +38,8 @@ chmod 755 ${RPM_BUILD_ROOT}OZCB/amavis-logwatch
 OZCB
 OZCE
 OZCS
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

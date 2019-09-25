@@ -15,3 +15,8 @@ Zimbra snmp components pulls in all the packages used by
 zimbra-snmp
 
 %files
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+- Initial build for p8
+

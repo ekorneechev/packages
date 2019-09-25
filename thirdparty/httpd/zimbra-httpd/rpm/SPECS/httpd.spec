@@ -18,10 +18,9 @@ Group: 		    System/Servers
 The Zimbra Apache HTTPD build
 
 %changelog
-* Fri Feb 08 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> 
--Updated the version.
-* Fri May 01 2015  Zimbra Packaging Services <packaging-devel@zimbra.com>
--Initial Release.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n httpd-%{version}

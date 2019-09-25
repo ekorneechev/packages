@@ -54,3 +54,8 @@ OZCL/*.a
 OZCL/*.la
 OZCL/*.so
 %exclude OZCS
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

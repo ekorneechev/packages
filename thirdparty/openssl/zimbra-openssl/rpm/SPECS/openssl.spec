@@ -14,10 +14,9 @@ Group: 		    System/Base
 The Zimbra OpenSSL build allows for secure communication between various processes.
 
 %changelog
-* Fri Jul 28 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Bug 106869: Updated openssl.
-* Fri May 01 2015 Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Initial Release.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n openssl-%{version}
@@ -76,5 +75,3 @@ OZCI
 OZCL/pkgconfig
 
 %changelog
-* Wed May 20 2015 Zimbra Packaging Services <packaging-devel@zimbra.com>
-- initial packaging

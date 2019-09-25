@@ -11,14 +11,9 @@ AutoReqProv:        no
 %define debug_package %{nil}
 
 %changelog
-* Tue Feb 12 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3
-- Updated zimbra-nginx package
-* Tue Sep 5 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
-- Updated zimbra-nginx package
-* Tue Jul 18 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Updated zimbra-nginx package
-* Wed Sep 09 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.0
-- Initial Release
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.3-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %description
 Zimbra proxy components pulls in all the packages used by

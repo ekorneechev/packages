@@ -44,3 +44,8 @@ OZCS/man
 
 %post
 /usr/bin/perl -I/opt/zimbra/common/lib/perl5 -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::Expat))->save_parsers()"
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

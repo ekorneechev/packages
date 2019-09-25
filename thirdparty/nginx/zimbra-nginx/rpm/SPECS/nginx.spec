@@ -18,34 +18,9 @@ Group: 		    System/Servers
 The Zimbra nginx build
 
 %changelog
-* Thu Feb 12 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch for nginx bug ZBUG-838
-- Patch for nginx for drive issue
-* Thu Feb 07 2019  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch for nginx bug ZBUG-838
-- Tue Nov 06 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch for nginx bug ZESC-821
-- Patch for nginx bug ZBUG-172
-* Thu Aug 30 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- ZCS-4021 for JWT support.
-* Fri Aug 24 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch for nginx Bug 107566
-* Wed May 10 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch for nginx Bug 107438 (and 106918, 106876)
-- Patch for nginx Bug 106948.
-- IMAP/POP3 throttling, whitelisting (ZMS-55, ZMS-59).
-* Tue Jun 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Backport upstream patch for CVE-2016-4450
-* Wed Mar 23 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Backport upstream patch for nginx ticket 901
-* Mon Mar 14 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Build with OpenSSL 1.0.2
-* Tue Feb 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Turn off compiler optimization.  Was breaking lookup extension.
-* Wed Feb 03 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Patch nginx for CVE-2016-0742
-- Patch nginx for CVE-2016-0746
-- Patch nginx for CVE-2016-0747
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n nginx-%{version}-zimbra

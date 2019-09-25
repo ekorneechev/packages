@@ -14,8 +14,9 @@ AutoReqProv:        no
 Initial ClamAV Databases for ClamAV
 
 %changelog
-* Wed Mar 09 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.0
-- Initial version
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %install
 mkdir -p ${RPM_BUILD_ROOT}/opt/zimbra/data/clamav/init

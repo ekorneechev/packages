@@ -14,17 +14,9 @@ AutoReqProv:        no
 CA certs keystore for use with OpenJDK
 
 %changelog
-* Thu Feb 11 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.5
-- Relocate cacerts to OZCE/java to avoid conflicts with the OpenJDK package
-* Fri Dec 14 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.4
-- Support running zmcertmgr as user zimbra instead of root
-* Fri Dec 11 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3
-- Enhance upgrade check
-* Mon Dec 07 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
-- Ensure that on upgrades of the zimbra-openjdk-cacerts package, that the keystore is updated
-- Ensure that on upgrades of the zimbra-openjdk-cacerts package, that the old keystore is backed up
-* Wed Dec 02 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Updated to include full CA Certs from Mozilla CA list
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.5-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %install
 mkdir -p ${RPM_BUILD_ROOT}/OZCE/java

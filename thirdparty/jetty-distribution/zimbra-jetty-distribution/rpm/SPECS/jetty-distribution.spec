@@ -15,10 +15,9 @@ Group:              Development/Java
 The Zimbra jetty-distribution build
 
 %changelog
-* Thu Aug 31 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-2.PKG_OS_TAG
-- Minor dependency fix.
-* Fri Jul 7 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-1.PKG_OS_TAG
-- Initial Release.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n jetty-distribution-%{version}

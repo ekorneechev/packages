@@ -15,11 +15,8 @@ Zimbra ldap components pulls in all the packages used by
 zimbra-ldap
 
 %changelog
-* Tue Sep 18 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
-- Updated Updated openldap 2.4.47
-* Wed Jul 25 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Updated Updated openldap 2.4.46
-* Wed Sep 09 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.0
-- Initial Release
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.2-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %files

@@ -16,16 +16,9 @@ AutoReqProv:        no
 %define debug_package %{nil}
 
 %changelog
-* Fri May 18 2018 Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.4
-- Updated zimbra-openjdk package
-* Fri Jul 28 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.3
-- Updated zimbra-openjdk package
-* Fri Jul 28 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.2
-- Updated zimbra-openssl package
-* Mon Jul 24 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Updated zimbra-mariadb package
-* Wed Sep 09 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.0
-- Initial Release
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.4-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %description
 Zimbra core components pulls in all the packages used by

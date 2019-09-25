@@ -20,10 +20,9 @@ database management system. Most functions provided by this programming API
 are supported.
 
 %changelog
-* Thu Sep 7 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Bug-107311: Updated perl-dbd-mysql version.
-* Wed Sep 9 2015 Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Initial Release.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %define debug_package %{nil}
 

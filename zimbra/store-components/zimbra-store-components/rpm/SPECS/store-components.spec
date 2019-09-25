@@ -15,9 +15,8 @@ Zimbra store components pulls in all the packages used by
 zimbra-store
 
 %changelog
-* Mon Jul 24 2017  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Updated zimbra-mariadb package
-* Wed Sep 09 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.0
-- Initial Release
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %files

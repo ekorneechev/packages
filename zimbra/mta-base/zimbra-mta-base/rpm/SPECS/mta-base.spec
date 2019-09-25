@@ -17,8 +17,9 @@ all the zimbra-mta specific packages
 %files
 
 %changelog
-* Tue Dec 15 2015  Zimbra Packaging Services <packaging-devel@zimbra.com> - 1.0.1
-- Create postfix user and group and postdrop group
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %post -p /bin/bash
 grp_exists() {

@@ -23,3 +23,8 @@ echo -e "Zimbra\nzimlet\nzimlets\nComcast\nVMware\nSynacor\nZimbra" | /opt/zimbr
 
 %files
 OZCL/aspell-0.60
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+- Initial build for p8
+

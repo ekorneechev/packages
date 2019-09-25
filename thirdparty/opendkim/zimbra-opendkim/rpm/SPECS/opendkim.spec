@@ -23,8 +23,9 @@ Group:              System/Servers
 The Zimbra OpenDKIM build
 
 %changelog
-* Mon May 02 2016  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Add patch for ticket 226
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n opendkim-%{version}

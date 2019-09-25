@@ -24,15 +24,9 @@ Group: 		    System/Servers
 The Zimbra openldap build
 
 %changelog
-* Fri Aug 31 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Update multival for new syntax that allows the capability to work around LDMB 0.9 limitations
-- Update liblmdb library to have a larger max keysize
-* Wed Jul 18 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Update multival patch to make sure a->a_numvals matches id2v counts
-* Tue Apr 24 2018  Zimbra Packaging Services <packaging-devel@zimbra.com> -
-- Initial package for OpenLDAP 2.4.46
-- Includes multival support
-- Includes upstream fix for ITS#8843
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n openldap-%{version}

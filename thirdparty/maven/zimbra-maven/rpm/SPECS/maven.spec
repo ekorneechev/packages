@@ -29,3 +29,8 @@ cp -f build/bin/* $RPM_BUILD_ROOT/opt/zimbra/common/bin
 %defattr(-,root,root)
 /opt/zimbra/common/bin
 
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

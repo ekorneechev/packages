@@ -59,3 +59,8 @@ cp -r webui ${RPM_BUILD_ROOT}/OZCS/
 OZCB
 OZCL/policyd-2.1
 OZCS
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

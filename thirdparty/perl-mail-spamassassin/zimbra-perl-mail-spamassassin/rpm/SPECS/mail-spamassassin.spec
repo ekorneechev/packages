@@ -25,9 +25,9 @@ including text analysis, internet-based realtime blacklists, statistical
 analysis, and internet-based hashing algorithms.
 
 %changelog
-* Fri Jul 7 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> -
--Added patch for spamAssasin bug-5561.
--Miscellaneous patch including bugs 7223,7265.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %define debug_package %{nil}
 

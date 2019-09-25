@@ -16,8 +16,9 @@ Group:              System/Servers
 The Zimbra memcached build
 
 %changelog
-* Sat Jun 24 2017 Zimbra Packaging Services <packaging-devel@zimbra.com> - VERSION-2.PKG_OS_TAG
-- Upgrade to memcached 1.4.37 for Bug 107246.
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1:VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+
 
 %prep
 %setup -n memcached-%{version}

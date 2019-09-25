@@ -104,5 +104,6 @@ OZCL/*.so
 OZCI
 
 %changelog
-* Wed May 20 2015 Zimbra Packaging Services <packaging-devel@zimbra.com>
-- initial packaging
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+- Initial build for p8
+

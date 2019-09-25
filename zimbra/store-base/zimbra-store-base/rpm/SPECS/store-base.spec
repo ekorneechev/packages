@@ -15,3 +15,8 @@ Zimbra store Base is used as a simple method to allow removing
 all the zimbra-store specific packages
 
 %files
+
+%changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+- Initial build for p8
+
