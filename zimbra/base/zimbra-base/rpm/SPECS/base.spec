@@ -1,7 +1,7 @@
 Summary:            Zimbra Base
 Name:               zimbra-base
 Version:            1.0.1
-Release:            alt3.zimbra8.8.15
+Release:            alt4.zimbra8.8.15
 License:            GPL-2
 Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
 Requires:           shadow-utils
@@ -23,13 +23,15 @@ cat > %buildroot/opt/zimbra/libexec/zmjavafix << EOF
 cd /opt/zimbra/common/lib/jvm/
 rm -f java
 ln -s zimbra-openjdk*/jre java
-cd -
 EOF
 
 %files
 %attr(755,zimbra,zimbra) /opt/zimbra/libexec/zmjavafix
 
 %changelog
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt4.zimbra8.8.15
+- Fix sudo
+
 * Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt3.zimbra8.8.15
 - Added zmjavafix
 - Update requires
@@ -79,3 +81,4 @@ fi
 touch /var/log/zimbra-stats.log
 chown zimbra:zimbra /var/log/zimbra-stats.log /etc/pki/java/cacerts
 chmod 660 /etc/pki/java/cacerts
+control sudo public
