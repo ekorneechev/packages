@@ -1,7 +1,7 @@
 Summary:            Zimbra Base
 Name:               zimbra-base
 Version:            1.0.1
-Release:            alt5
+Release:            alt2
 License:            GPL-2
 Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           shadow-utils
@@ -24,26 +24,14 @@ cat > %buildroot/opt/zimbra/libexec/zmjavafix << EOF
 cd /opt/zimbra/common/lib/jvm/
 rm -f java
 ln -s zimbra-openjdk*/jre java
-chown zimbra:zimbra /etc/pki/java/cacerts
-chmod 660 /etc/pki/java/cacerts
 EOF
 
 %files
 %attr(755,zimbra,zimbra) /opt/zimbra/libexec/zmjavafix
 
 %changelog
-* Thu Sep 26 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt5
-- Update requires (+syslog), fix perms
-
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt4
-- Fix sudo
-
-* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt3
-- Added zmjavafix
-- Update requires
-
-* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt2
-- Update %post
+* Thu Sep 26 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt2
+- Added fixes for ALT
 
 * Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1
 - Initial build for p8
@@ -85,6 +73,5 @@ else
 fi
 
 touch /var/log/zimbra-stats.log
-chown zimbra:zimbra /var/log/zimbra-stats.log /etc/pki/java/cacerts
-chmod 660 /etc/pki/java/cacerts
+chown zimbra:zimbra /var/log/zimbra-stats.log
 control sudo public
