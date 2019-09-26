@@ -1,12 +1,13 @@
 Summary:            Zimbra Base
 Name:               zimbra-base
 Version:            1.0.1
-Release:            alt4
+Release:            alt5
 License:            GPL-2
 Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           shadow-utils
 Requires:           perl-Pod-Usage perl-Digest-SHA
 Requires:           ca-certificates-java
+Requires:           syslogd
 Group:              Development/Languages
 AutoReqProv:        no
 
@@ -23,12 +24,17 @@ cat > %buildroot/opt/zimbra/libexec/zmjavafix << EOF
 cd /opt/zimbra/common/lib/jvm/
 rm -f java
 ln -s zimbra-openjdk*/jre java
+chown zimbra:zimbra /etc/pki/java/cacerts
+chmod 660 /etc/pki/java/cacerts
 EOF
 
 %files
 %attr(755,zimbra,zimbra) /opt/zimbra/libexec/zmjavafix
 
 %changelog
+* Thu Sep 26 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt5
+- Update requires (+syslog), fix perms
+
 * Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt4
 - Fix sudo
 
