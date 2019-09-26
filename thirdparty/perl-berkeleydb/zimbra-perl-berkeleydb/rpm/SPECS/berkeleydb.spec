@@ -1,10 +1,10 @@
 Summary:            BerkeleyDB - Perl extension for Berkeley DB version 2, 3, 4 or 5
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-bdb-devel
 Requires:           zimbra-perl-base, zimbra-bdb-libs
@@ -50,6 +50,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

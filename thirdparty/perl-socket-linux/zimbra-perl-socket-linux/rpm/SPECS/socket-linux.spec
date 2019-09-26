@@ -1,7 +1,7 @@
 Summary:            Zimbra's Socket::Linux build
 Name:               zimbra-perl-socket-linux
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base
@@ -38,6 +38,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

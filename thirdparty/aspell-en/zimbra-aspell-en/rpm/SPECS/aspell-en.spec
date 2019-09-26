@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell English dictionary
 Name:               zimbra-aspell-en
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-aspell
@@ -35,6 +35,6 @@ echo "add zimbra.rws" >>${RPM_BUILD_ROOT}OZCL/aspell-0.60/en_US.multi
 OZCL/aspell-0.60
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

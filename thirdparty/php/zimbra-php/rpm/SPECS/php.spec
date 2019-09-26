@@ -1,7 +1,7 @@
 Summary:            Zimbra's PHP build
 Name:               zimbra-php
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zlib-devel
@@ -20,7 +20,7 @@ Group:              Development/Other
 The Zimbra PHP build
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

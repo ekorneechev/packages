@@ -1,11 +1,11 @@
 Summary:            Zimbra custom dictionary
 Name:               zimbra-aspell-zimbra
 Version:            1.0.0
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 BuildRequires:      zimbra-aspell-en
 Requires:           zimbra-aspell-en
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 AutoReqProv:        no
 Group:              Text tools
@@ -25,6 +25,6 @@ echo -e "Zimbra\nzimlet\nzimlets\nComcast\nVMware\nSynacor\nZimbra" | /opt/zimbr
 OZCL/aspell-0.60
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1
 - Initial build for p8
 

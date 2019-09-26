@@ -1,7 +1,7 @@
 Summary:            Zimbra's maven build
 Name:               zimbra-maven
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             skip_rat_build_xml.patch
@@ -31,6 +31,6 @@ cp -f build/bin/* $RPM_BUILD_ROOT/opt/zimbra/common/bin
 
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

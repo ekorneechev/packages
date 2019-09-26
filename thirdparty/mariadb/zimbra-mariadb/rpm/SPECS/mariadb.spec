@@ -1,7 +1,7 @@
 Summary:            Zimbra's MariaDB build
 Name:               zimbra-mariadb
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPLv2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      libaio-devel
@@ -114,6 +114,6 @@ OZCI
 OZCS/man/man1/mysql_config.1
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

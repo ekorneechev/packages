@@ -1,7 +1,7 @@
 Summary:            Zimbra's amavisd build
 Name:               zimbra-amavisd
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.bz2
 Patch0:             amavisd.patch
@@ -43,6 +43,6 @@ cp amavisd-snmp-subagent-zmq ${RPM_BUILD_ROOT}OZC/sbin
 OZC/sbin
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

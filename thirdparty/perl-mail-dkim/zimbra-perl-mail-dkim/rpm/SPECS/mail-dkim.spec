@@ -1,10 +1,10 @@
 Summary:            Mail::DKIM - Signs/verifies Internet mail with DKIM/DomainKey signatures
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-crypt-openssl-rsa zimbra-perl-digest-sha1
 BuildRequires:      zimbra-perl-net-dns zimbra-perl-mailtools
@@ -48,6 +48,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

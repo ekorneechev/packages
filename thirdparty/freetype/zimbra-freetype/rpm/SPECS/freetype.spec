@@ -1,7 +1,7 @@
 Summary:            Zimbra's freetype build
 Name:               zimbra-freetype
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2.0
 BuildRequires:      zlib-devel, bzip2-devel
 Source:             %{name}-%{version}.tar.gz
@@ -57,6 +57,6 @@ OZCL/*.so
 OZCS
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

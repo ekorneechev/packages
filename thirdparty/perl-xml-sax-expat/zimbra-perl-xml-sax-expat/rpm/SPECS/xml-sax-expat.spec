@@ -1,10 +1,10 @@
 Summary:            XML::SAX::Expat - SAX2 Driver for Expat (XML::Parser)
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-xml-sax, zimbra-perl-xml-parser
 Requires:           zimbra-perl-base, zimbra-perl-xml-sax, zimbra-perl-xml-parser
@@ -46,6 +46,6 @@ OZCS/man
 /usr/bin/perl -I/opt/zimbra/common/lib/perl5 -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::Expat))->save_parsers()"
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

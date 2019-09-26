@@ -1,10 +1,10 @@
 Summary:            Perl extension for using OpenSSL
 Name:               zimbra-perl-net-ssleay
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Artistic 2.0
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-openssl-devel
 Requires:           zimbra-perl-base, zimbra-openssl-libs
@@ -49,6 +49,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

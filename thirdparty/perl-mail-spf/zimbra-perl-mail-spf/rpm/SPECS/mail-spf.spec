@@ -1,10 +1,10 @@
 Summary:            Mail::SPF - An object-oriented implementation of Sender Policy Framework
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-error, zimbra-perl-netaddr-ip
 BuildRequires:      zimbra-perl-net-dns, zimbra-perl-net-dns-resolver-programmable
@@ -50,6 +50,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

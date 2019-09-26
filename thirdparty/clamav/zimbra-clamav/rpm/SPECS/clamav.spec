@@ -1,7 +1,7 @@
 Summary:            Zimbra's ClamAV build
 Name:               zimbra-clamav
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      bzlib-devel libcheck-devel libncurses-devel zlib-devel libcurl-devel libssl-devel libxml2-devel libpcre-devel
@@ -81,6 +81,6 @@ OZCI
 
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

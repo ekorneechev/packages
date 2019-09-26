@@ -1,7 +1,7 @@
 Summary:            Zimbra's amavis-logwatch build
 Name:               zimbra-amavis-logwatch
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            MIT
 Source:             %{name}-%{version}.tgz
 Requires:           zimbra-base
@@ -40,6 +40,6 @@ OZCE
 OZCS
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

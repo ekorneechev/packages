@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell build
 Name:               zimbra-aspell
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            LGPL-2.1
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      libncurses-devel
@@ -63,6 +63,6 @@ OZCL/*.so
 
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

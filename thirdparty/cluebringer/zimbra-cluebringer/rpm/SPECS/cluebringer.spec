@@ -1,10 +1,10 @@
 Summary:            ClueBringer Policy Daemon
 Name:               zimbra-cluebringer
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           zimbra-mta-base, zimbra-perl-base, zimbra-perl-cache-fastmmap
 Requires:           zimbra-perl-config-inifiles, zimbra-perl-dbi, zimbra-perl-dbd-sqlite
 Requires:           zimbra-perl-mail-spf, zimbra-perl-net-cidr, zimbra-perl-net-dns
@@ -61,6 +61,6 @@ OZCL/policyd-2.1
 OZCS
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

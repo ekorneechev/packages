@@ -1,7 +1,7 @@
 Summary:            Zimbra's Berkeley DB build
 Name:               zimbra-bdb
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Sleepycat
 Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-bdb-libs = %{version}-%{release}
@@ -63,6 +63,6 @@ OZCL/libdb-5.so
 OZCL/libdb.so
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

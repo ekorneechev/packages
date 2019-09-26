@@ -1,7 +1,7 @@
 Summary:            Zimbra's Apache Portable Runtime Utilities build
 Name:               zimbra-apr-util
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.bz2
 BuildRequires:      zimbra-apr-devel, libexpat-devel
@@ -67,6 +67,6 @@ OZCL/aprutil.exp
 OZCL/pkgconfig
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

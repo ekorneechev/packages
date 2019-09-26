@@ -1,7 +1,7 @@
 Summary:            Zimbra's libart build
 Name:               zimbra-libart
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2.0
 Source:             %{name}-%{version}.tar.bz2
 URL:                http://ftp.gnome.org/pub/gnome/sources/libart_lgpl/2.3/
@@ -55,6 +55,6 @@ OZCL/*.la
 OZCL/*.so
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

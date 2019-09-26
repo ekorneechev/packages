@@ -1,11 +1,11 @@
 Summary:            a client LDAP services API
 Name:               zimbra-perl-net-ldap
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Artistic 2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             net-ldap-keepalive.patch
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-convert-asn1, zimbra-perl-socket-linux
 Requires:           zimbra-perl-base, zimbra-perl-convert-asn1, zimbra-perl-socket-linux
@@ -44,6 +44,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

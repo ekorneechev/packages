@@ -1,7 +1,7 @@
 Summary:            HTML::Parser - HTML extraction tools
 Name:               zimbra-perl-html-parser
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL+ or Artistic
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-perl-base
@@ -43,6 +43,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

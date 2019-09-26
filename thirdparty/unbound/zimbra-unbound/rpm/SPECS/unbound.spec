@@ -1,7 +1,7 @@
 Summary:            Zimbra's Unbound build
 Name:               zimbra-unbound
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 Patch0:             log-facility.patch
@@ -70,6 +70,6 @@ OZCL/*.la
 OZCL/*.so
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

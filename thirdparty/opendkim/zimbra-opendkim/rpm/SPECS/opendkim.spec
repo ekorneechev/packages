@@ -1,7 +1,7 @@
 Summary:            Zimbra's OpenDKIM build
 Name:               zimbra-opendkim
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            OpenDKIM
 Source:             %{name}-%{version}.tar.gz
 Patch0:             ticket226.patch
@@ -23,7 +23,7 @@ Group:              System/Servers
 The Zimbra OpenDKIM build
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

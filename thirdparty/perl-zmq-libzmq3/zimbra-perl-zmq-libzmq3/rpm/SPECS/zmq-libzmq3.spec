@@ -1,10 +1,10 @@
 Summary:            a libzmq 3.x wrapper for Perl
 Name:               zimbra-perl-zmq-libzmq3
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Artistic 2.0
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-zeromq-devel, zimbra-perl-zmq-constants
 Requires:           zimbra-perl-base, zimbra-zeromq-libs, zimbra-perl-zmq-constants
@@ -53,6 +53,6 @@ OZCL
 OZCS/man
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

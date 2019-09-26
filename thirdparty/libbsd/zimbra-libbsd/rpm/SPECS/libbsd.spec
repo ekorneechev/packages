@@ -1,7 +1,7 @@
 Summary:            Zimbra's libbsd build
 Name:               zimbra-libbsd
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.xz
 URL:                http://libbsd.freedesktop.org/
@@ -56,6 +56,6 @@ OZCL/*.so
 %exclude OZCS
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

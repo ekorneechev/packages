@@ -1,7 +1,7 @@
 Summary:            Zimbra's Aspell French dictionary
 Name:               zimbra-aspell-fr
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2.0
 Patch0:             aspell-fr.patch
 Source:             %{name}-%{version}.tar.bz2
@@ -35,6 +35,6 @@ make install DESTDIR=${RPM_BUILD_ROOT}
 OZCL/aspell-0.60
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

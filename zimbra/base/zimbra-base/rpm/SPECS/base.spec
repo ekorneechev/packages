@@ -1,9 +1,9 @@
 Summary:            Zimbra Base
 Name:               zimbra-base
 Version:            1.0.1
-Release:            alt4.zimbra8.8.15
+Release:            alt4
 License:            GPL-2
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           shadow-utils
 Requires:           perl-Pod-Usage perl-Digest-SHA
 Requires:           ca-certificates-java
@@ -29,17 +29,17 @@ EOF
 %attr(755,zimbra,zimbra) /opt/zimbra/libexec/zmjavafix
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt4.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt4
 - Fix sudo
 
-* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt3.zimbra8.8.15
+* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt3
 - Added zmjavafix
 - Update requires
 
-* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt2.zimbra8.8.15
+* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt2
 - Update %post
 
-* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1.zimbra8.8.15
+* Tue Sep 24 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1
 - Initial build for p8
 
 %post -p /bin/bash

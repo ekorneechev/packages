@@ -1,7 +1,7 @@
 Summary:            Zimbra's jetty-distribution build
 Name:               zimbra-jetty-distribution
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Requires:           zimbra-store-base
@@ -15,7 +15,7 @@ Group:              Development/Java
 The Zimbra jetty-distribution build
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

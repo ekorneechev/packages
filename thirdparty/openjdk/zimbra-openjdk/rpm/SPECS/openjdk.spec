@@ -1,7 +1,7 @@
 Summary:            Zimbra's OpenJDK build
 Name:               zimbra-openjdk
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tgz
 BuildRequires:      zip, unzip, libX11-devel, libXau-devel, libXext-devel, libXfixes-devel
@@ -20,7 +20,7 @@ Group:   	    Development/Java
 The Zimbra OpenJDK build
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

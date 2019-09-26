@@ -1,9 +1,9 @@
 Summary:            Zimbra MTA Base
 Name:               zimbra-mta-base
 Version:            1.0.1
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 Requires:           zimbra-base
 AutoReqProv:        no
@@ -17,7 +17,7 @@ all the zimbra-mta specific packages
 %files
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt1
 - Initial build for p8
 
 

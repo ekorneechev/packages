@@ -1,10 +1,10 @@
 Summary:            Postfix Log Entry Summarizer
 Name:               zimbra-pflogsumm
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           zimbra-base, zimbra-perl-base, zimbra-perl-date-calc
 AutoReqProv:        no
 URL:                http://jimsun.linxnet.com/postfix_contrib.html
@@ -35,6 +35,6 @@ OZCB
 OZCS
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

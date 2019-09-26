@@ -1,10 +1,10 @@
 Summary:            prepflog.pl - Pre-processor for pflogsumm
 Name:               zimbra-prepflog
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           zimbra-base, zimbra-perl-base, zimbra-perl-date-calc
 AutoReqProv:        no
 URL:                http://www.voipsupport.it/pmwiki/pmwiki.php?n=Linux.PrePflog
@@ -36,6 +36,6 @@ sed -i -e '/=pod/ i use lib qw(/opt/zimbra/common/lib/perl5);' ${RPM_BUILD_ROOT}
 OZCB
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

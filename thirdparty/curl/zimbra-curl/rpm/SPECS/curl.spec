@@ -1,7 +1,7 @@
 Summary:            Zimbra's Curl build
 Name:               zimbra-curl
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      glibc-devel-static groff-base libidn-devel libssh2-devel libssl-devel zlib-devel python-modules libnghttp2-devel python-modules-logging python-modules-xml
@@ -78,6 +78,6 @@ OZCI
 
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

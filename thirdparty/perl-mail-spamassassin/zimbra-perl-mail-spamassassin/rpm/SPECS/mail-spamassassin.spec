@@ -1,12 +1,12 @@
 Summary:            Mail::SpamAssassin - Spam detector and markup engine
 Name:               zimbra-perl-MODNORMNAME
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            Apache-2.0
 Source:             %{name}-%{version}.tar.gz
 Patch0:             spamassassin-net-dns.patch
 Patch1:             spamassassin-mail.patch
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      zimbra-perl-base, zimbra-perl-digest-sha1, zimbra-perl-net-dns
 BuildRequires:      zimbra-perl-html-parser, zimbra-perl-io-compress, zimbra-perl-mail-spf
@@ -25,7 +25,7 @@ including text analysis, internet-based realtime blacklists, statistical
 analysis, and internet-based hashing algorithms.
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

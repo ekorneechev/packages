@@ -2,7 +2,7 @@ Summary:            Zimbra's memcached build
 Name:               zimbra-memcached
 Epoch:              1
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zimbra-libevent-devel
@@ -16,7 +16,7 @@ Group:              System/Servers
 The Zimbra memcached build
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1:VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1:VERSION-alt1
 - Initial build for p8
 
 

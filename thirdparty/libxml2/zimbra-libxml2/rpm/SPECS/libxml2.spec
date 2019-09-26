@@ -1,7 +1,7 @@
 Summary:            Zimbra's LibXML2 build
 Name:               zimbra-libxml2
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            MIT
 Source:             %{name}-%{version}.tar.gz
 BuildRequires:      zlib-devel
@@ -67,6 +67,6 @@ OZCL/xml2Conf.sh
 
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

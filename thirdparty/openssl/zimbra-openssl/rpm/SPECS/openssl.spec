@@ -1,7 +1,7 @@
 Summary:            Zimbra's Secure Socket Layer build
 Name:               zimbra-openssl
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            OpenSSL
 Source:             %{name}-%{version}.tar.gz
 Patch:              ipv6.patch
@@ -14,7 +14,7 @@ Group: 		    System/Base
 The Zimbra OpenSSL build allows for secure communication between various processes.
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 
 

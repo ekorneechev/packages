@@ -1,7 +1,7 @@
 Summary:            Zimbra's NetSNMP build
 Name:               zimbra-net-snmp
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            BSD
 Source:             %{name}-%{version}.tar.gz
 Patch0:		    net-snmp-%{version}-alt.patch
@@ -79,6 +79,6 @@ OZCL/*.la
 OZCL/*.so
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

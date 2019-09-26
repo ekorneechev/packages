@@ -1,10 +1,10 @@
 Summary:            PostSRSd provides Sender Rewriting Scheme Support for Postfix
 Name:               zimbra-postsrsd
 Version:            VERSION
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
 Source:             %{name}-%{version}.tar.gz
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           zimbra-base
 AutoReqProv:        no
 URL:                https://github.com/roehling/postsrsd
@@ -42,6 +42,6 @@ OZCL/postsrsd
 OZC/sbin
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> VERSION-alt1
 - Initial build for p8
 

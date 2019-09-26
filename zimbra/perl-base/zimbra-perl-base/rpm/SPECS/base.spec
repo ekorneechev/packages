@@ -1,9 +1,9 @@
 Summary:            Zimbra Perl Base
 Name:               zimbra-perl-base
 Version:            1.0.0
-Release:            alt1.zimbra8.8.15
+Release:            alt1
 License:            GPL-2
-Packager:           Korneechev Evgeniy <ekorneechev@altlinux.org>
+Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Group:              Development/Languages
 BuildRequires:      perl
 Requires:           perl, zimbra-base
@@ -19,6 +19,6 @@ actual contents.
 %files
 
 %changelog
-* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1.zimbra8.8.15
+* Wed Sep 25 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.0-alt1
 - Initial build for p8
 
