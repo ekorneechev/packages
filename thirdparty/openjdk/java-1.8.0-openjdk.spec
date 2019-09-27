@@ -31,7 +31,7 @@ BuildRequires: jpackage-generic-compat
 %define OZCL %OZC/lib
 %define OZCLjvm %OZCL/jvm
 %define OZCB %OZC/bin
-%define version 1.8.0.144
+%define version 1.8.0.172
 # note, parametrised macros are order-senisitve (unlike not-parametrized) even with normal macros
 # also necessary when passing it as parameter other macros. If not macro, then it is considered as switch
 %global debug_suffix_unquoted -debug
@@ -183,7 +183,7 @@ BuildRequires: jpackage-generic-compat
 # note, following three variables are sedded from update_sources if used correctly. Hardcode them rather there.
 %global project         aarch64-port
 #%global repo            jdk8u60
-%global revision        aarch64-jdk8u144-b01
+%global revision        aarch64-jdk8u172-b01
 # eg # jdk8u60-b27 -> jdk8u60 or # aarch64-jdk8u60-b27 -> aarch64-jdk8u60  (dont forget spec escape % by %%)
 %global whole_update    %(VERSION=%{revision}; echo ${VERSION%%-*})
 # eg  jdk8u60 -> 60 or aarch64-jdk8u60 -> 60
@@ -238,8 +238,8 @@ BuildRequires: jpackage-generic-compat
 %global __jar_repack 0
 
 Name:    zimbra-%{origin}
-Version: 1.8.0u144b01
-Release: alt1.zimbra884
+Version: 1.8.0u172b01
+Release: alt1
 # java-1.5.0-ibm from jpackage.org set Epoch to 1 for unknown reasons,
 # and this change was brought into RHEL-4.  java-1.5.0-ibm packages
 # also included the epoch in their virtual provides.  This created a
@@ -254,7 +254,7 @@ Release: alt1.zimbra884
 Summary: Zimbra's OpenJDK build
 Group:   Development/Java
 
-License:  GPL-2
+License:  ASL 1.1 and ASL 2.0 and GPL+ and GPLv2 and GPLv2 with exceptions and LGPL+ and LGPLv2 and MPLv1.0 and MPLv1.1 and Public Domain and W3C
 URL:      http://openjdk.java.net/
 
 # aarch64-port now contains integration forest of both aarch64 and normal jdk
@@ -286,6 +286,9 @@ Source12: java-1.8.0-openjdk-remove-intree-libraries.sh
 Source13: TestCryptoLevel.java
 
 Source20: repackReproduciblePolycies.sh
+
+# Russian translation for policytool
+Source30: policytool.Resources_ru.java
 
 # New versions of config files with aarch64 support. This is not upstream yet.
 Source100: config.guess
@@ -639,6 +642,9 @@ cp %{SOURCE2} .
 # supported by openjdk configure script
 cp %{SOURCE100} openjdk/common/autoconf/build-aux/
 cp %{SOURCE101} openjdk/common/autoconf/build-aux/
+
+# Add file with russian translation for policytool
+cp %{SOURCE30} openjdk/jdk/src/share/classes/sun/security/tools/policytool/Resources_ru.java
 
 # OpenJDK patches
 
@@ -1158,13 +1164,15 @@ EOF
 
 # Install substitute rules for buildreq
 echo java >j2se-buildreq-substitute
+echo java-headless >j2se-headless-buildreq-substitute
 echo java-devel >j2se-devel-buildreq-substitute
 mkdir -p %buildroot%_sysconfdir/buildreqs/packages/substitute.d
 install -m644 j2se-buildreq-substitute \
     %buildroot%_sysconfdir/buildreqs/packages/substitute.d/%name
+install -m644 j2se-headless-buildreq-substitute \
+    %buildroot%_sysconfdir/buildreqs/packages/substitute.d/%name-headless
 install -m644 j2se-devel-buildreq-substitute \
     %buildroot%_sysconfdir/buildreqs/packages/substitute.d/%name-devel
-
 install -d %buildroot%_altdir
 
 # J2SE alternative
@@ -1323,6 +1331,8 @@ fi
 
 %if %{include_normal_build} 
 %files headless  -f %{name}.files-headless
+%_sysconfdir/buildreqs/packages/substitute.d/%name-headless
+%_altdir/%altname-java
 # important note, see https://bugzilla.redhat.com/show_bug.cgi?id=1038092 for whole issue 
 # all config/norepalce files (and more) have to be declared in pretrans. See pretrans
 %doc %{buildoutputdir}/images/%{j2sdkimage}/jre/ASSEMBLY_EXCEPTION
@@ -1335,8 +1345,13 @@ fi
 %{jvmjardir}
 %dir %{_jvmdir}/%{jredir}/lib/security
 %{_jvmdir}/%{jredir}/lib/security/cacerts
-%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/US_export_policy.jar
-%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/local_policy.jar
+%dir %{_jvmdir}/%{jredir}/lib/security/policy
+%dir %{_jvmdir}/%{jredir}/lib/security/policy/limited
+%dir %{_jvmdir}/%{jredir}/lib/security/policy/unlimited
+%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/policy/limited/US_export_policy.jar
+%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/policy/limited/local_policy.jar
+%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/policy/unlimited/US_export_policy.jar
+%config(noreplace) %{_jvmdir}/%{jredir}/lib/security/policy/unlimited/local_policy.jar
 %config(noreplace) %{_jvmdir}/%{jredir}/lib/security/java.policy
 %config(noreplace) %{_jvmdir}/%{jredir}/lib/security/java.security
 %config(noreplace) %{_jvmdir}/%{jredir}/lib/security/blacklisted.certs
@@ -1434,7 +1449,22 @@ fi
 %endif
 
 %changelog
-* Wed Oct 04 2017 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.8.0u144b01-alt1.zimbra884
+* Tue Sep 10 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.8.0u172b01-alt1
+- new version for ZCS
+
+* Thu Jan 24 2019 Ivan Razzhivin <underwit@altlinux.org> 0:1.8.0.144-alt1_1.b01jpp8.M80P.3
+- add russian translation for policytool
+
+* Tue Apr 17 2018 Denis Medvedev <nbr@altlinux.org> 0:1.8.0.144-alt1_1.b01jpp8.M80P.2
+- fix for libreoffice crash
+
+* Tue Nov 07 2017 Igor Vlasenko <viy@altlinux.ru> 0:1.8.0.144-alt1_1.b01jpp8.M80P.1
+- backport
+
+* Mon Nov 06 2017 Igor Vlasenko <viy@altlinux.ru> 0:1.8.0.144-alt2_1.b01jpp8
+- fixed /usr/bin/java provides (closes: #32531)
+
+* Wed Oct 04 2017 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.8.0u144b01-alt1
 - Renamed for ZCS - zimbra-openjdk
 
 * Mon Oct 02 2017 Evgeniy Korneechev <ekorneechev@altlinux.org> 0:1.8.0.144-alt1_1.b01jpp8
