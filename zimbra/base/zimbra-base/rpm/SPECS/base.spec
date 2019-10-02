@@ -7,7 +7,6 @@ Packager:           Evgeniy Korneechev <ekorneechev@altlinux.org>
 Requires:           shadow-utils
 Requires:           perl-Pod-Usage perl-Digest-SHA
 Requires:           ca-certificates-java
-Requires:           syslogd
 Group:              Development/Languages
 AutoReqProv:        no
 
@@ -72,6 +71,4 @@ else
         usermod -g zimbra -d /opt/zimbra -s /bin/bash zimbra
 fi
 
-touch /var/log/zimbra-stats.log
-chown zimbra:zimbra /var/log/zimbra-stats.log
 control sudo public
