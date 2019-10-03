@@ -16,17 +16,7 @@ AutoReqProv:        no
 Zimbra Base is used as a simple method to allow removing
 all the zimbra specific third party packages.
 
-%install
-mkdir -p %buildroot/opt/zimbra/libexec
-cat > %buildroot/opt/zimbra/libexec/zmjavafix << EOF
-#!/bin/bash
-cd /opt/zimbra/common/lib/jvm/
-rm -f java
-ln -s zimbra-openjdk*/jre java
-EOF
-
 %files
-%attr(755,zimbra,zimbra) /opt/zimbra/libexec/zmjavafix
 
 %changelog
 * Thu Sep 26 2019 Evgeniy Korneechev <ekorneechev@altlinux.org> 1.0.1-alt2
